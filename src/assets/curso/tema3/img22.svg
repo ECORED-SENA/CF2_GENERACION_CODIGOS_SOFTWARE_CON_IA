@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="301.166" viewBox="0 0 1240 301.166">
+  <g id="Grupo_1182460" data-name="Grupo 1182460" transform="translate(-180 -5695.733)">
+    <path id="Fondo" d="M0,0H1240V301.166H0Z" transform="translate(180 5695.733)" fill="#d1fbfd"/>
+    <g id="Grupo_1182447" data-name="Grupo 1182447" transform="translate(130.051 1214)">
+      <g id="Grupo_1099019" data-name="Grupo 1099019" transform="translate(365.051 4534)">
+        <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H601a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" transform="translate(0)" fill="#3a1d71"/>
+        <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H610a0,0,0,0,1,0,0V135a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+        <g id="Grupo_1181759" data-name="Grupo 1181759" transform="translate(32 19)">
+          <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" transform="translate(0)" fill="#fb130d"/>
+          <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(27)" fill="#fecd02"/>
+          <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(53)" fill="#43dfaa"/>
+        </g>
+      </g>
+      <text id="slq_SELECT_nombre_FROM_estudiantes_WERE_edad_18_" data-name="slq
+
+SELECT nombre FROM estudiantes WERE edad  &gt; =  18;" transform="translate(399.051 4623)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">slq</tspan><tspan x="0" y="40"></tspan><tspan fill="#ff3afb"><tspan x="0" y="63">SELECT </tspan><tspan y="63" fill="#fff">nombre </tspan><tspan y="63">FROM </tspan><tspan y="63" fill="#fff">estudiantes </tspan><tspan y="63">WERE </tspan><tspan y="63" xml:space="preserve" fill="#fff">edad  &gt; =  </tspan><tspan y="63" fill="#bb7e00">18</tspan><tspan y="63" fill="#fff">;</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

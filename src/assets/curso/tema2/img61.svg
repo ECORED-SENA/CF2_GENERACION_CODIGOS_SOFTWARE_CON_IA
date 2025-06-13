@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="308" viewBox="0 0 820 308">
+  <g id="Grupo_1181778" data-name="Grupo 1181778" transform="translate(-365.051 -4534)">
+    <g id="Grupo_1099019" data-name="Grupo 1099019" transform="translate(365.051 4534)">
+      <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H811a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" fill="#3a1d71"/>
+      <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H820a0,0,0,0,1,0,0V244a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+      <g id="Grupo_1181761" data-name="Grupo 1181761" transform="translate(32 19)">
+        <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" fill="#fb130d"/>
+        <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(27)" fill="#fecd02"/>
+        <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(53)" fill="#43dfaa"/>
+      </g>
+    </g>
+    <text id="Inicio_Declarar_la_función_con_retorno_Definir_función_calcularAreaCirculo_radio_Definir_area_como_decimal_area_3.14_radio_radio_Devolver_area_Retorna_el_valor_calculado_Fin_función_Fin" data-name="Inicio
+    // Declarar la función con retorno
+    Definir función calcularAreaCirculo(radio)
+        Definir area como decimal
+        area = 3.14 * radio * radio
+        Devolver area  // Retorna el valor calculado
+    Fin función
+Fin" transform="translate(399.051 4623)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Inicio</tspan><tspan x="0" y="40" xml:space="preserve">    // Declarar la función con retorno</tspan><tspan x="0" y="63" xml:space="preserve">    Definir función calcularAreaCirculo(radio)</tspan><tspan x="0" y="86" xml:space="preserve">        Definir area como decimal</tspan><tspan x="0" y="109" xml:space="preserve">        area = 3.14 * radio * radio</tspan><tspan x="0" y="132" xml:space="preserve">        Devolver area  // Retorna el valor calculado</tspan><tspan x="0" y="155" xml:space="preserve">    Fin función</tspan><tspan x="0" y="178">Fin</tspan></text>
+  </g>
+</svg>

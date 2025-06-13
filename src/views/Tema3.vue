@@ -268,9 +268,9 @@
 
 
           div(titulo="Funciones y estructuras")
-            p.px-5.mb-0  Le permite a los programadores o desarrolladores definir funciones en las cuales se pueden encapsular bloques de códigos que se pueden seguir reutilizando a lo largo de la escritura del programa. También permiten la organización del código en estructuras de clases, lo que es aprovechable en los lenguajes orientados a objetos. Estos componentes facilitan la modularidad y el mantenimiento que se hace al software, para mantenerlo activo y optimizado.
+            p.px-5.mb-0  Le permite a los programadores o desarrolladores definir funciones en las cuales se pueden encapsular bloques de códigos que se pueden seguir reutilizando a lo largo de la escritura del programa. También permiten la organización del código en estructuras de clases, lo que es aprovechable en los lenguajes orientados a objetos. Estos componentes facilitan la modularidad y el mantenimiento que se hace al #[i software], para mantenerlo activo y optimizado.
 
-    p.mt-4 Los lenguajes de programación también poseen unas características claves que determinan su utilidad y eficacia en el desarrollo del software. A continuación se exponen algunas de ellas (UNIR, 2024):
+    p.mt-4 Los lenguajes de programación también poseen unas características claves que determinan su utilidad y eficacia en el desarrollo del #[i software]. A continuación se exponen algunas de ellas (UNIR, 2024):
 
     .row.bg-1
       .col-12 
@@ -285,7 +285,7 @@
                         img(src="@/assets/curso/tema3/img11.svg", alt='', style="width: 90px").m-auto
                     p.text-center
                       b Legibilidad
-                    p.text-center.mb-0 El lenguaje debe ser comprensible para cualquier desarrollador, lo que facilita el mantenimiento del software y el trabajo colaborativo.
+                    p.text-center.mb-0 El lenguaje debe ser comprensible para cualquier desarrollador, lo que facilita el mantenimiento del #[i software] y el trabajo colaborativo.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -334,9 +334,9 @@
           img(src='@/assets/curso/tema3/img17.png', alt='', style="width: 400px").m-auto
 
       .col-lg-8
-        p Es el enfoque o el estilo utilizado para desarrollar el software, de tal forma, que estructura y organiza el código según unos principios específicos, para ello hay diferentes formas de diseñar un lenguaje y diferentes formas de trabajar para conseguir objetivos que necesitan los desarrolladores (Canelo, 2020). Son modelos, guías, reglas, métodos, teorías para solucionar problemas a nivel de codificación (Castro, 2021).
+        p Es el enfoque o el estilo utilizado para desarrollar el #[i software], de tal forma, que estructura y organiza el código según unos principios específicos, para ello hay diferentes formas de diseñar un lenguaje y diferentes formas de trabajar para conseguir objetivos que necesitan los desarrolladores (Canelo, 2020). Son modelos, guías, reglas, métodos, teorías para solucionar problemas a nivel de codificación (Castro, 2021).
 
-        p.p-5.bg-14 Se puede hablar de un paradigma como si fuese un mapa, el cual se utiliza para desplazarse de un punto X a un punto Y; para ello se tienen diferentes rutas, unas más rápidas, otras más lentas, algunas más largas, otras más cortas, pero al final todas permiten llegar al mismo destino. En el mundo de la programación es igual, y los paradigmas representan ese enfoque documentado para escribir el código, donde cada uno de ellos brinda unas características, ventajas y desventajas según el propósito, pero al final todos los lenguajes logran el objetivo del desarrollo del software (EDteam, 2020).
+        p.p-5.bg-14 Se puede hablar de un paradigma como si fuese un mapa, el cual se utiliza para desplazarse de un punto X a un punto Y; para ello se tienen diferentes rutas, unas más rápidas, otras más lentas, algunas más largas, otras más cortas, pero al final todas permiten llegar al mismo destino. En el mundo de la programación es igual, y los paradigmas representan ese enfoque documentado para escribir el código, donde cada uno de ellos brinda unas características, ventajas y desventajas según el propósito, pero al final todos los lenguajes logran el objetivo del desarrollo del #[i software] (EDteam, 2020).
 
         p.mt-4 Los principales paradigmas de programación son:
 
@@ -438,7 +438,7 @@
         figure
           img(src='@/assets/curso/tema3/img25.png', alt='', style="width: 400px").m-auto
       .col-lg-8
-        p El desarrollo de software representa todo un universo, lleno de diversos lenguajes de programación, cuyas características, formas, estilos, paradigmas los hacen tan diferentes pero a la vez tan ricos, para que cualquier programador encuentre una herramienta que se ajuste a su estilo y necesidades. Eso sí, algunos lenguajes son más populares que otros, tal vez por su facilidad, su versatilidad y ante todo por su alta incidencia y adopción en la industria tecnológica.
+        p El desarrollo de #[i software] representa todo un universo, lleno de diversos lenguajes de programación, cuyas características, formas, estilos, paradigmas los hacen tan diferentes pero a la vez tan ricos, para que cualquier programador encuentre una herramienta que se ajuste a su estilo y necesidades. Eso sí, algunos lenguajes son más populares que otros, tal vez por su facilidad, su versatilidad y ante todo por su alta incidencia y adopción en la industria tecnológica.
 
         p.p-5.bg-14.mt-4 La idea de dar a conocer un listado de los lenguajes más utilizados en el mundo, permite a los programadores y a los que están comenzando en este mundo de la programación, orientarse a recursos que ofrezcan mayores oportunidades laborales, facilitándoles el norte a herramientas que aparte de facilitarles la creación de soluciones modernas y eficientes, también volverse competitivos para aprovechar las oportunidades que brinda el mercado. Claro está, también hay que tener en cuenta, que a mayor popularidad del lenguaje, mayor será su competencia, ya que otros irán por esa estatuilla.
 

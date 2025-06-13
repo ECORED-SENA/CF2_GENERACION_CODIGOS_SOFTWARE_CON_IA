@@ -76,17 +76,17 @@
         figure
           img(src="@/assets/curso/tema1/img15.svg", alt="", style="width: 90px").m-auto
       .col-lg-11
-        p Con todo lo anteriormente explicado, se puede concluir que la lógica de programación, representa la capacidad de estructurar el pensamiento de forma coherente, precisa y sistemática, para trabajar en la construcción de soluciones computacionales sólidas. Es una competencia para la vida, que combina análisis, abstracción, matemáticas y creatividad, lo cual en conjunto brinda destrezas al hombre para trabajar en el desarrollo de software, de manera confiable y eficaz.
+        p Con todo lo anteriormente explicado, se puede concluir que la lógica de programación, representa la capacidad de estructurar el pensamiento de forma coherente, precisa y sistemática, para trabajar en la construcción de soluciones computacionales sólidas. Es una competencia para la vida, que combina análisis, abstracción, matemáticas y creatividad, lo cual en conjunto brinda destrezas al hombre para trabajar en el desarrollo de #[i software], de manera confiable y eficaz.
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Importancia de la lógica en el desarrollo de software
+      h2 2.1 Importancia de la lógica en el desarrollo de #[i software]
 
     .row.align-items-center.justify-content-center
       .col-lg-8
         p.p-5.bg-14 La lógica de programación es importante, porque representa la base para aprender a programar, fortalecer el razonamiento, generar las habilidades y destrezas para programar con eficacia, brindando recursos para que las personas puedan entender problemas complejos, identificar patrones y buscar soluciones. Incluso, desarrollar esta habilidad, ayuda tanto a niños como a adultos a programar más fácil y más rápido, desarrollando en el camino pensamiento crítico, mejorando capacidades como la resolución de problemas de todo tipo de situaciones que se les vayan presentando en su aprendizaje (Crack The Code, 2023).
 
-        p.mt-4 La lógica es el corazón de la programación, por eso, más allá de codificar o escribir simples líneas de código, lo que busca es llevar a la persona a pensar de forma clara, eficiente y bien estructurada, para que logre dar soluciones a los problemas. De ahí que dominar la lógica no solo representa mejorar en la habilidad para programar, sino que fortalece el pensamiento crítico, facilita la adaptación a nuevas tecnologías y brinda ayudas para enfrentar diferentes tipos de retos, dentro y fuera del mundo digital (The importance of logic in learning to code, 2024). A continuación se comparten 5 puntos clave sobre la importancia de la lógica en el desarrollo de software:
+        p.mt-4 La lógica es el corazón de la programación, por eso, más allá de codificar o escribir simples líneas de código, lo que busca es llevar a la persona a pensar de forma clara, eficiente y bien estructurada, para que logre dar soluciones a los problemas. De ahí que dominar la lógica no solo representa mejorar en la habilidad para programar, sino que fortalece el pensamiento crítico, facilita la adaptación a nuevas tecnologías y brinda ayudas para enfrentar diferentes tipos de retos, dentro y fuera del mundo digital (The importance of logic in learning to code, 2024). A continuación se comparten 5 puntos clave sobre la importancia de la lógica en el desarrollo de #[i software]:
 
       .col-lg-4.d-lg-block.d-none
         figure

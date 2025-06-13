@@ -320,7 +320,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Importancia de los algoritmos
 
-    p La importancia de los algoritmos radica en que constituyen uno de los pilares fundamentales de la informática. Son esenciales para la resolución sistemática y eficiente de problemas complejos, y forman la base sobre la cual se construye la lógica de programación y el desarrollo de software. Su relevancia se manifiesta en múltiples dimensiones, tanto técnicas como prácticas.
+    p La importancia de los algoritmos radica en que constituyen uno de los pilares fundamentales de la informática. Son esenciales para la resolución sistemática y eficiente de problemas complejos, y forman la base sobre la cual se construye la lógica de programación y el desarrollo de #[i software]. Su relevancia se manifiesta en múltiples dimensiones, tanto técnicas como prácticas.
 
     .row.align-items-center
       .col-lg-4.d-lg-block.d-none
@@ -336,13 +336,13 @@
 
 
           div(titulo="Base del desarrollo de <em>software</em>")
-            p.px-5.mb-0  Todo programa o sistema es la implementación práctica de uno o varios algoritmos. Un software funcional depende de algoritmos bien definidos que aseguren un comportamiento predecible y correcto.
+            p.px-5.mb-0  Todo programa o sistema es la implementación práctica de uno o varios algoritmos. Un #[i software] funcional depende de algoritmos bien definidos que aseguren un comportamiento predecible y correcto.
 
           div(titulo="Optimización de recursos computacionales")
             p.px-5.mb-0  Un buen algoritmo mejora el uso del hardware, como el tiempo de ejecución y la memoria, lo que es crucial en contextos de alta demanda, como en la inteligencia artificial o los videojuegos.
 
           div(titulo="Reutilización y modularidad")
-            p.px-5.mb-0  Los algoritmos pueden ser diseñados para ser reutilizados en distintas partes de un programa o en diferentes proyectos, lo que promueve el modularidad, las #[b buenas prácticas] y facilita el mantenimiento del software.
+            p.px-5.mb-0  Los algoritmos pueden ser diseñados para ser reutilizados en distintas partes de un programa o en diferentes proyectos, lo que promueve el modularidad, las #[b buenas prácticas] y facilita el mantenimiento del #[i software].
 
           div(titulo="Prevención de errores y ambigüedades")
             p.px-5.mb-0  Un algoritmo bien estructurado asegura el #[b orden lógico] de las aplicaciones, evitando errores lógicos y ambigüedades que afectan la confiabilidad del #[i software].
@@ -350,7 +350,7 @@
           div(titulo="Mejora de la comunicación técnica")
             p.px-5.mb-0  Sirven como lenguaje común entre programadores, analistas y diseñadores, favoreciendo la #[b colaboración efectiva] dentro de los equipos de desarrollo.
 
-    p.mt-4 Estas funciones resaltan el valor de los algoritmos como herramientas estructurales clave dentro del desarrollo de software y la ingeniería informática. Sin embargo, su utilidad trasciende lo técnico, alcanzando un impacto más amplio en la vida cotidiana, los negocios y la innovación tecnológica.
+    p.mt-4 Estas funciones resaltan el valor de los algoritmos como herramientas estructurales clave dentro del desarrollo de #[i software] y la ingeniería informática. Sin embargo, su utilidad trasciende lo técnico, alcanzando un impacto más amplio en la vida cotidiana, los negocios y la innovación tecnológica.
       
     .row.bg-1
       .col-12 
@@ -373,7 +373,7 @@
                         img(src="@/assets/curso/tema1/img27.svg", alt='', style="width: 90px").m-auto
                     p.text-center
                       b Aplicabilidad en procesos cotidianos
-                    p.text-center.mb-0 Más allá del software, los algoritmos son herramientas útiles para describir y organizar #[b procesos personales y empresariales] de forma eficiente.
+                    p.text-center.mb-0 Más allá del #[i software], los algoritmos son herramientas útiles para describir y organizar #[b procesos personales y empresariales] de forma eficiente.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -409,7 +409,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        p Aunque a menudo se utilizan de manera indistinta, #[b algoritmo] y #[b programa (software)] son conceptos distintos que cumplen funciones complementarias dentro del desarrollo informático. El #[b algoritmo] es la base lógica y conceptual que describe cómo resolver un problema paso a paso, mientras que el #[b programa] es la implementación práctica y codificada de uno o varios algoritmos, capaz de ser ejecutado por una computadora. La siguiente tabla compara ambos términos según distintos criterios, destacando sus diferencias clave:
+        p Aunque a menudo se utilizan de manera indistinta, #[b algoritmo] y #[b programa (#[i software])] son conceptos distintos que cumplen funciones complementarias dentro del desarrollo informático. El #[b algoritmo] es la base lógica y conceptual que describe cómo resolver un problema paso a paso, mientras que el #[b programa] es la implementación práctica y codificada de uno o varios algoritmos, capaz de ser ejecutado por una computadora. La siguiente tabla compara ambos términos según distintos criterios, destacando sus diferencias clave:
       
       .col-lg-2.d-lg-block.d-none
         figure
@@ -417,7 +417,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3.mt-4
       h5 Tabla 3.
-      span Diferencia entre algoritmo y software 
+      span Diferencia entre algoritmo y #[i software] 
 
     .table.responsive
       table

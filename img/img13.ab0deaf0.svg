@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="428" viewBox="0 0 820 428">
+  <g id="Grupo_1181746" data-name="Grupo 1181746" transform="translate(-365.051 -4534)">
+    <g id="Grupo_1099019" data-name="Grupo 1099019" transform="translate(365.051 4534)">
+      <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H811a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" fill="#3a1d71"/>
+      <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H820a0,0,0,0,1,0,0V364a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+      <g id="Grupo_1181761" data-name="Grupo 1181761">
+        <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" transform="translate(32 19)" fill="#fb130d"/>
+        <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(59 19)" fill="#fecd02"/>
+        <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(85 19)" fill="#43dfaa"/>
+      </g>
+    </g>
+    <text id="Inicio_Mostrar_mensaje:_Ingrese_el_primer_número_Leer_número1_Mostrar_mensaje:_Ingrese_el_segundo_número_Leer_número2_Calcular_suma_como_número1_número2_Mostrar_mensaje:_El_resultado_de_la_suma_es:_seguido_de_suma_Fin" data-name="Inicio
+
+    Mostrar mensaje: &quot;Ingrese el primer número&quot;
+    Leer número1
+
+    Mostrar mensaje: &quot;Ingrese el segundo número&quot;
+    Leer número2
+
+    Calcular suma como número1 + número2
+
+    Mostrar mensaje: &quot;El resultado de la suma es:&quot; seguido de suma
+
+Fin" transform="translate(399.051 4623)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Inicio</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="40"></tspan><tspan x="0" y="63" xml:space="preserve">    Mostrar mensaje: </tspan><tspan y="63" font-family="SegoeUI, Segoe UI" font-weight="400">&quot;Ingrese el primer número&quot;</tspan></tspan><tspan x="0" y="86" xml:space="preserve">    Leer número1</tspan><tspan x="0" y="109"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="132" xml:space="preserve">    Mostrar mensaje:</tspan><tspan y="132" xml:space="preserve" font-family="SegoeUI, Segoe UI" font-weight="400"> &quot;Ingrese el segundo número&quot;</tspan></tspan><tspan x="0" y="155" xml:space="preserve">    Leer número2</tspan><tspan x="0" y="178"></tspan><tspan x="0" y="201" xml:space="preserve">    Calcular suma como número1 + número2</tspan><tspan x="0" y="224"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="247" xml:space="preserve">    Mostrar mensaje: </tspan><tspan y="247" font-family="SegoeUI, Segoe UI" font-weight="400">&quot;El resultado de la suma es:&quot; seguido de suma</tspan></tspan><tspan x="0" y="270"></tspan><tspan x="0" y="293">Fin</tspan></text>
+  </g>
+</svg>

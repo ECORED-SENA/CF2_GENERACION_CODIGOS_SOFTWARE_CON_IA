@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="370" viewBox="0 0 610 370">
+  <g id="Grupo_1181777" data-name="Grupo 1181777" transform="translate(-365.051 -4534)">
+    <g id="Grupo_1099019" data-name="Grupo 1099019" transform="translate(365.051 4534)">
+      <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H601a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" fill="#3a1d71"/>
+      <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H610a0,0,0,0,1,0,0V306a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+      <g id="Grupo_1181761" data-name="Grupo 1181761" transform="translate(32 19)">
+        <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" fill="#fb130d"/>
+        <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(27)" fill="#fecd02"/>
+        <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(53)" fill="#43dfaa"/>
+      </g>
+      <text id="Código_con_funciones_sin_redundancia_" data-name="Código con funciones (sin redundancia)" transform="translate(281 34.001)" fill="#fdfefe" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-175.386" y="0">Código con funciones (sin redundancia)</tspan></text>
+    </g>
+    <text id="Inicio_Definir_función_sumar_a_b_Devolver_a_b_Fin_función_c_sumar_5_3_Mostrar_c_c_sumar_7_2_Mostrar_c_Fin" data-name="Inicio
+    Definir función sumar(a, b)
+        Devolver a + b
+    Fin función
+
+    c = sumar(5, 3)
+    Mostrar c
+
+    c = sumar(7, 2)
+    Mostrar c
+Fin" transform="translate(399.051 4623)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Inicio</tspan><tspan x="0" y="40" xml:space="preserve">    Definir función sumar(a, b)</tspan><tspan x="0" y="63" xml:space="preserve">        Devolver a + b</tspan><tspan x="0" y="86" xml:space="preserve">    Fin función</tspan><tspan x="0" y="109"></tspan><tspan x="0" y="132" xml:space="preserve">    c = sumar(5, 3)</tspan><tspan x="0" y="155" xml:space="preserve">    Mostrar c</tspan><tspan x="0" y="178"></tspan><tspan x="0" y="201" xml:space="preserve">    c = sumar(7, 2)</tspan><tspan x="0" y="224" xml:space="preserve">    Mostrar c</tspan><tspan x="0" y="247">Fin</tspan></text>
+  </g>
+</svg>

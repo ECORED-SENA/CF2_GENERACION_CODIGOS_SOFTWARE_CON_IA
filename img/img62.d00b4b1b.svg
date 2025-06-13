@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="348" viewBox="0 0 820 348">
+  <g id="Grupo_1181779" data-name="Grupo 1181779" transform="translate(-365.051 -4534)">
+    <g id="Grupo_1099019" data-name="Grupo 1099019" transform="translate(365.051 4534)">
+      <path id="Rectángulo_389225" data-name="Rectángulo 389225" d="M9,0H811a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" fill="#3a1d71"/>
+      <path id="Rectángulo_389226" data-name="Rectángulo 389226" d="M0,0H820a0,0,0,0,1,0,0V284a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(0 55)" fill="#110628"/>
+      <g id="Grupo_1181761" data-name="Grupo 1181761" transform="translate(32 19)">
+        <circle id="Elipse_11380" data-name="Elipse 11380" cx="8" cy="8" r="8" fill="#fb130d"/>
+        <circle id="Elipse_11381" data-name="Elipse 11381" cx="8" cy="8" r="8" transform="translate(27)" fill="#fecd02"/>
+        <circle id="Elipse_11382" data-name="Elipse 11382" cx="8" cy="8" r="8" transform="translate(53)" fill="#43dfaa"/>
+      </g>
+    </g>
+    <text id="Inicio_Declarar_una_función_sin_retorno_Definir_función_mostrarMensaje_mensaje_Mostrar_mensaje_La_función_muestra_el_mensaje_pero_no_devuelve_nada_Fin_función_Llamada_a_la_función_mostrarMensaje_Hola_estudia" data-name="Inicio
+    // Declarar una función sin retorno
+    Definir función mostrarMensaje(mensaje)
+        Mostrar mensaje  
+    // La función muestra el mensaje, pero no devuelve nada
+    Fin función
+
+    // Llamada a la función
+    mostrarMensaje(&quot;¡Hola, estudia" transform="translate(399.051 4623)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Inicio</tspan><tspan x="0" y="40" xml:space="preserve">    // Declarar una función sin retorno</tspan><tspan x="0" y="63" xml:space="preserve">    Definir función mostrarMensaje(mensaje)</tspan><tspan x="0" y="86" xml:space="preserve">        Mostrar mensaje  </tspan><tspan x="0" y="109" xml:space="preserve">    // La función muestra el mensaje, pero no devuelve nada</tspan><tspan x="0" y="132" xml:space="preserve">    Fin función</tspan><tspan x="0" y="155"></tspan><tspan x="0" y="178" xml:space="preserve">    // Llamada a la función</tspan><tspan x="0" y="201" xml:space="preserve">    mostrarMensaje(&quot;¡Hola, estudiantes!&quot;)</tspan><tspan x="0" y="224">Fin</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="423.081" viewBox="0 0 1240 423.081">
+  <g id="Grupo_1182457" data-name="Grupo 1182457" transform="translate(-180.051 -5732.482)">
+    <path id="Fondo" d="M0,0H1240V423.081H0Z" transform="translate(180.051 5732.482)" fill="#d1fbfd"/>
+    <g id="Grupo_1179620" data-name="Grupo 1179620" transform="translate(-0.5 60.396)">
+      <g id="Rectángulo_406411" data-name="Rectángulo 406411" transform="translate(737.051 5723)" fill="#1bebf5" stroke="#1bebf5" stroke-width="1">
+        <rect width="125" height="37" rx="18.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="124" height="36" rx="18" fill="none"/>
+      </g>
+      <text id="Inicio" transform="translate(781.051 5748)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Inicio</tspan></text>
+      <path id="Trazado_1047429" data-name="Trazado 1047429" d="M-7892.821-5803.466l-11.281,37h106.8l8.167-37Z" transform="translate(8646.652 11599.967)" fill="#1bebf5" stroke="#1bebf5" stroke-width="1"/>
+      <path id="Trazado_1047432" data-name="Trazado 1047432" d="M-7892.821-5803.466l-11.281,37h126.8l8.167-37Z" transform="translate(8636.652 11743.219)" fill="#1bebf5" stroke="#1bebf5" stroke-width="1"/>
+      <text id="Leer_A_y_B" data-name="Leer A y B" transform="translate(764.051 5822)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Leer A y B</tspan></text>
+      <text id="Mostrar_suma" data-name="Mostrar suma" transform="translate(750.051 5965.252)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mostrar suma</tspan></text>
+      <g id="Grupo_1179615" data-name="Grupo 1179615" transform="translate(-1)">
+        <g id="Rectángulo_406412" data-name="Rectángulo 406412" transform="translate(738.051 5867)" fill="#1bebf5" stroke="#1bebf5" stroke-width="1">
+          <rect width="125" height="37" stroke="none"/>
+          <rect x="0.5" y="0.5" width="124" height="36" fill="none"/>
+        </g>
+        <text id="Suma" transform="translate(744.051 5892)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Suma</tspan></text>
+        <text id="A_B" data-name="A+B" transform="translate(812.051 5892)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A+B</tspan></text>
+        <g id="Grupo_1179614" data-name="Grupo 1179614">
+          <path id="Trazado_1047430" data-name="Trazado 1047430" d="M-7846.684-5721.044h-14.347l5.464-5.3" transform="translate(8654.051 11608)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path id="Trazado_1047431" data-name="Trazado 1047431" d="M-7846.684-5726.341h-14.347l5.464,5.3" transform="translate(8654.051 11613.297)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Grupo_1179616" data-name="Grupo 1179616" transform="translate(-5087.608 6582.148) rotate(-90)">
+        <path id="Trazado_1047430-2" data-name="Trazado 1047430" d="M-7846.684-5721.044h-14.347l5.464-5.3" transform="translate(8654.051 11608)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Trazado_1047431-2" data-name="Trazado 1047431" d="M-7837.684-5726.341h-23.347l5.464,5.3" transform="translate(8654.051 11613.297)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Grupo_1179617" data-name="Grupo 1179617" transform="translate(-5087.608 6654.148) rotate(-90)">
+        <path id="Trazado_1047430-3" data-name="Trazado 1047430" d="M-7846.684-5721.044h-14.347l5.464-5.3" transform="translate(8654.051 11608)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Trazado_1047431-3" data-name="Trazado 1047431" d="M-7837.684-5726.341h-23.347l5.464,5.3" transform="translate(8654.051 11613.297)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Grupo_1179618" data-name="Grupo 1179618" transform="translate(-5087.608 6726.238) rotate(-90)">
+        <path id="Trazado_1047430-4" data-name="Trazado 1047430" d="M-7846.684-5721.044h-14.347l5.464-5.3" transform="translate(8654.051 11608)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Trazado_1047431-4" data-name="Trazado 1047431" d="M-7837.684-5726.341h-23.347l5.464,5.3" transform="translate(8654.051 11613.297)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <path id="Trazado_1047433" data-name="Trazado 1047433" d="M-7854.5-5631.248v36.688" transform="translate(8654.051 11608)" fill="none" stroke="#108d93" stroke-width="1"/>
+      <g id="Rectángulo_406413" data-name="Rectángulo 406413" transform="translate(737.051 6007.252)" fill="#1bebf5" stroke="#1bebf5" stroke-width="1">
+        <rect width="125" height="37" rx="18.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="124" height="36" rx="18" fill="none"/>
+      </g>
+      <text id="Fin" transform="translate(789.051 6032.252)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fin</tspan></text>
+    </g>
+  </g>
+</svg>

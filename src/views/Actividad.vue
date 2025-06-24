@@ -21,10 +21,10 @@ export default {
         'Reconocimientos de aspectos de algoritmos, lógica de programación y lenguajes de programación',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Fortalecer los conocimientos relacionados con algoritmos, lógica de programación y lenguajes de programación',
+        '<b> Objetivo:</b> fortalecer los conocimientos relacionados con algoritmos, lógica de programación y lenguajes de programación',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -46,7 +46,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Un tipo de software para la gestión de bases de datos.',
+              texto:
+                'Un tipo de <em>software</em> para la gestión de bases de datos.',
               esCorrecta: false,
             },
             {
@@ -195,7 +196,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Un conjunto de herramientas para hacer pruebas de software.',
+                'Un conjunto de herramientas para hacer pruebas de <em>software</em>.',
               esCorrecta: false,
             },
             {

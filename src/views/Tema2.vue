@@ -38,7 +38,7 @@
 
               p.mt-4 La lógica de programación permite #[b solucionar problemas mediante reglas claras y definidas], y se apoya en ciertos elementos (como estructuras de control, variables, operadores y funciones) que #[b organizan y conectan esas reglas]. Luego, este conjunto estructurado se convierte en código, el cual será #[b interpretado por la computadora] para ejecutar y materializar soluciones a los distintos desafíos o necesidades planteadas.
 
-              p Para mayor claridad, se comparten unas analogías sencillas, que les ayudaran a tener una mayor idea de lo que es la lógica de programación: 
+              p Para mayor claridad, se comparten unas analogías sencillas, que les ayudarán a tener una mayor idea de lo que es la lógica de programación: 
 
             .col-lg-4.d-lg-block.d-none
               figure
@@ -54,21 +54,21 @@
                   figure
                     img(src="@/assets/curso/tema2/img4.svg", alt="alt", style="width: 92px").m-auto
                 h4.text-center 01
-                p.text-center.mb-0 En un rompecabezas las piezas encajan en un solo lugar y con unas en específico, para que la figura tenga sentido; así es con la lógica, como un reloj cuando engrana sus ruedas dentadas. Cuando se razona sin lógica, las cosas pueden perder el sentido.
+                p.text-center.mb-0 En un #[b rompecabezas], las piezas encajan en un solo lugar y con unas en específico, para que la figura tenga sentido; así es con la lógica, como un reloj cuando engrana sus ruedas dentadas. Cuando se razona sin lógica, las cosas pueden perder el sentido.
             .col-lg-4.mb-4.mb-lg-0
               .crd.crd--grayGrad(data-aos="flip-left")
                 .bottomCircle.mb-3
                   figure
                     img(src="@/assets/curso/tema2/img5.svg", alt="alt", style="width: 92px").m-auto
                 h4.text-center 02
-                p.text-center.mb-0 Deseas cocinar un suculento platillo guajiro, para ello sigues la receta al pie de la letra, sin alterar sus ingredientes, ni el orden, respetando sus cortes, adobos y tiempos de cocción. En la lógica de programación es igual, tienes que seguir un proceso ordenado para lograr el resultado deseado.
+                p.text-center.mb-0 Deseas cocinar un suculento platillo guajiro, para ello sigues la #[b receta] al pie de la letra, sin alterar sus ingredientes, ni el orden, respetando sus cortes, adobos y tiempos de cocción. En la lógica de programación es igual, tienes que seguir un proceso ordenado para lograr el resultado deseado.
             .col-lg-4.mb-4.mb-lg-0
               .crd.crd--grayGrad(data-aos="flip-left")
                 .bottomCircle.mb-3
                   figure
                     img(src="@/assets/curso/tema2/img6.svg", alt="alt", style="width: 92px").m-auto
                 h4.text-center 03
-                p.text-center.mb-0 Tomas el mapa, ubicas lugar de salida y de llegada, visualizas las diferentes rutas y tomas el camino más corto y menos congestionado, para llegar a tu destino. La lógica te ayuda a encontrar los mejores caminos, razonablemente hablando, para resolver un problema, tomar una decisión, o desarrollar una idea.
+                p.text-center.mb-0 Tomas el mapa, ubicas el lugar de salida y de llegada, visualizas las diferentes rutas y tomas el camino más corto y menos congestionado, para llegar a tu destino. La lógica te ayuda a encontrar los mejores caminos, razonablemente hablando, para resolver un problema, tomar una decisión, o desarrollar una idea.
     
 
     .row.align-items-center.justify-content-center.mt-4.bg-9.p-3
@@ -118,9 +118,9 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Elementos fundamentales de la programación
 
-    p Dentro de la lógica de programación los elementos fundamentales vienen a ser los recursos y las piezas básicas que se necesitan para poder construir cualquier aplicación o sistema. Aquí se habla de los bloques que hacen que el código cobre vida y que permiten que una computadora pueda leerlos, entenderlos y ejecutar las órdenes dadas en las diferentes líneas. Se había hablado de los algoritmos, pero no se habían tratado estos elementos, ahora para poder complementar, y poder engranar todos los recursos que se necesitan para convertir todas esas ideas en soluciones tecnológicas reales, se van a conocer los principales elementos que intervienen en la programación:
+    p Dentro de la lógica de programación, los elementos fundamentales vienen a ser los recursos y las piezas básicas que se necesitan para poder construir cualquier aplicación o sistema. Aquí se habla de los bloques que hacen que el código cobre vida y que permiten que una computadora pueda leerlos, entenderlos y ejecutar las órdenes dadas en las diferentes líneas. Se había hablado de los algoritmos, pero no se habían tratado estos elementos. Ahora, para poder complementar y poder engranar todos los recursos que se necesitan para convertir todas esas ideas en soluciones tecnológicas reales, se van a conocer los principales elementos que intervienen en la programación:
 
-    .row.bg-1
+    .row.bg-17
       .col-12 
         .p-5 
           .carousel-bg
@@ -150,7 +150,6 @@
                     p.text-center
                       b Operadores
                     p.text-center.mb-0 Son símbolos que permiten hacer cálculos o comparaciones.
-
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -201,7 +200,7 @@
             li.d-flex
               i.fa-solid.fa-circle-check
               .contenido
-                p.mb-0 Las variables, según el lenguaje de programación en donde se esté utilizando puede necesitar ser declarada. Las declaraciones se dan según el tipo de datos que manejará la variable.
+                p.mb-0 Las variables, según el lenguaje de programación en donde se estén utilizando, pueden necesitar ser declaradas. Las declaraciones se dan según el tipo de datos que manejará la variable.
 
       .col-lg-4.d-lg-block.d-none
         figure
@@ -241,7 +240,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3.mt-4
       h5 Tabla 4.
-      span  Tipos de datas 
+      span  Tipos de #[i datas] 
 
     .table-responsive
       table
@@ -849,7 +848,7 @@
                   figure
                     img(src="@/assets/curso/tema2/img52.svg", alt="alt", style="width: 92px").m-auto
                 h4.text-center Nombre
-                p.text-center.mb-0 Es la identificación de la función, y para su uso dentro del código, la función es llamada por el nombre, lo que le hace imprescindible.
+                p.text-center.mb-0 Es la identificación de la función, y para su uso dentro del código, la función es llamada por el nombre, lo que lo hace imprescindible.
             .col-lg-3.mb-4.mb-lg-0
               .crd.crd--grayGrad(data-aos="flip-left")
                 .bottomCircle.mb-3

@@ -14,7 +14,7 @@
             figure
               img(src="@/assets/curso/tema3/img1.svg", alt="", style="width: 90px").m-auto
           .col-lg-10
-            p Son programas que sirven como herramientas para que los desarrolladores puedan crear otros programas, los cuáles organizan los algoritmos y procesos lógicos que se ejecutaran en el computador, controlando el comportamiento y comunicación con el usuario. Se componen de símbolos, de reglas semánticas y sintácticas, con las cuáles se construye el código fuente que da vida a otros programas o aplicaciones; además los lenguajes de programación le facilitan el trabajo a los desarrolladores y equipo de desarrolladores, ya que imitan la lógica de los humanos (Concepto, 2020). Son herramientas que permiten a los programadores darle instrucciones precisas a las computadoras (UNIR, 2024). 
+            p Son programas que sirven como herramientas para que los desarrolladores puedan crear otros programas, los cuales organizan los algoritmos y procesos lógicos que se ejecutarán en el computador, controlando el comportamiento y comunicación con el usuario. Se componen de símbolos, de reglas semánticas y sintácticas, con las cuales se construye el código fuente que da vida a otros programas o aplicaciones; además, los lenguajes de programación facilitan el trabajo a los desarrolladores y el equipo de desarrolladores, ya que imitan la lógica de los humanos (Concepto, 2020). Son herramientas que permiten a los programadores darle instrucciones precisas a las computadoras (UNIR, 2024). 
 
         p.mt-4 Los lenguajes de programación se clasifican en tres tipos de lenguajes (Concepto, 2020):
 
@@ -32,7 +32,7 @@
 
           .col-md-7
             h4 Lenguajes de bajo nivel
-            p Diseñados para interactuar directamente con hardware específico. No pueden ser utilizados en otros equipos, ya que son exclusivos de un sistema. Su principal ventaja es el aprovechamiento máximo del sistema para el que fueron creados; su mayor desventaja, la falta de compatibilidad con otros sistemas.
+            p Diseñados para interactuar directamente con <em>hardware</em> específico. No pueden ser utilizados en otros equipos, ya que son exclusivos de un sistema. Su principal ventaja es el aprovechamiento máximo del sistema para el que fueron creados; su mayor desventaja, la falta de compatibilidad con otros sistemas.
 
 
       .py-4.py-md-5.bg-15(titulo="Lenguajes de alto nivel" :icono="require('@/assets/curso/tema2/img42.svg')")
@@ -43,7 +43,7 @@
 
           .col-md-7
             h4 Lenguajes de alto nivel
-            p Son universales y compatibles con múltiples sistemas, sin depender de la arquitectura del hardware. Incluyen lenguajes de propósito general y otros con fines específicos.
+            p Son universales y compatibles con múltiples sistemas, sin depender de la arquitectura del <em>hardware</em>. Incluyen lenguajes de propósito general y otros con fines específicos.
 
 
       .py-4.py-md-5.bg-15(titulo="Lenguajes de nivel medio" :icono="require('@/assets/curso/tema2/img42.svg')")
@@ -73,12 +73,12 @@
             li.d-flex
               i.fa-solid.fa-circle-check
               .contenido
-                p.mb-0 Lenguaje maquina
+                p.mb-0 Lenguaje máquina
 
             li.d-flex
               i.fa-solid.fa-circle-check
               .contenido
-                p.mb-0 Ensamblador (x86,ARM)
+                p.mb-0 Ensamblador (x86, ARM)
 
             li.d-flex
               i.fa-solid.fa-circle-check
@@ -239,7 +239,7 @@
             figure
               img(src='@/assets/curso/tema3/img9.png', alt='', style="width: 400px").m-auto
 
-    p.mt-4 Los lenguajes de programación para funcionar, se apoyan en diferentes componentes (UNIR, 2024), entre los cuales se pueden citar:
+    p.mt-4 Los lenguajes de programación, para funcionar, se apoyan en diferentes componentes (UNIR, 2024), entre los cuales se pueden citar:
 
     .row.align-items-center.mt-4
       .col-lg-4.d-lg-block.d-none
@@ -251,7 +251,7 @@
           .row(titulo="Instrucciones")
             .col-12.mb-4.mb-md-0.px-5
 
-              p son los comandos, por medio de los cuales, se les dan las indicaciones a los computadores. Dentro de estas instrucciones pueden estar las operaciones lógicas, aritméticas, las condiciones y los ciclos.
+              p Son los comandos, por medio de los cuales, se les dan las indicaciones a los computadores. Dentro de estas instrucciones pueden estar las operaciones lógicas, aritméticas, las condiciones y los ciclos.
 
 
           div(titulo="Compiladores e intérpretes")
@@ -344,7 +344,7 @@
 
     .row.mt-4.align-items-center
       .col-lg-8
-        p.p-5.bg-2 Basado en instrucciones secuenciales, donde el programador específico cómo se va a realizar la tarea, paso a paso. Este enfoque detalla un conjunto de instrucciones que transforman el estado de un programa; es decir, los programas escritos bajo este paradigma detallan lo que se debe hacer y cómo se debe hacer. Dentro de este paradigma se encuentran C, Java, Python, JavaScript.
+        p.p-5.bg-2 Basado en instrucciones secuenciales, donde el programador específica cómo se va a realizar la tarea, paso a paso. Este enfoque detalla un conjunto de instrucciones que transforman el estado de un programa; es decir, los programas escritos bajo este paradigma detallan lo que se debe hacer y cómo se debe hacer. Dentro de este paradigma se encuentran C, Java, Python, JavaScript.
 
         p.mt-4 Entre sus características resalta que trabajan con pasos detallados y secuenciales, y el flujo de control lo determinan las estructuras de control como bucles y condicionales. Entre sus principales ventajas, están la flexibilidad, el control sobre el flujo de ejecución, son más fáciles de entender y son recomendables para el desarrollo de tareas sencillas.
 
@@ -389,7 +389,7 @@
 
     .row.mt-4.align-items-center
       .col-lg-8
-        p  Se centra en objetos y en clases. El objeto es la instancia de una clase, la cual agrupa los datos y comportamientos relacionados. En este paradigma los problemas son modelados como colecciones de objetos que están interactuando entre sí. Promueve la modularidad, la reutilización de código y la abstracción. Aquí se encuentran lenguajes como Ruby, Java.
+        p  Se centra en objetos y en clases. El objeto es la instancia de una clase, la cual agrupa los datos y comportamientos relacionados. En este paradigma, los problemas son modelados como colecciones de objetos que están interactuando entre sí. Promueve la modularidad, la reutilización de código y la abstracción. Aquí se encuentran lenguajes como Ruby, Java.
 
         .row.mt-4.p-4.bg-14
           p Sus 4 pilares son:
@@ -413,9 +413,9 @@
             li.d-flex
               i.fa-solid.fa-circle-check
               .contenido
-                p.mb-0 Abstracción: oculta la complejidad de los detalles internos, refiriéndose a como es su funcionamiento y por el contrario, muestra solo lo esencial, a quien lo necesita usar. En otras palabras, lo importante no es mostrar cómo se hace, sino lo que hace.
+                p.mb-0 Abstracción: oculta la complejidad de los detalles internos, refiriéndose a cómo es su funcionamiento y por el contrario, muestra solo lo esencial, a quien lo necesita usar. En otras palabras, lo importante no es mostrar cómo se hace, sino lo que hace.
 
-        p.mt-4 Entre sus principales ventajas se puede decir que mejora tanto la organización como la estructura del código, gracias a la herencia facilita la reutilización de código, así mismo brinda facilidad a la hora de hacer mantenimiento, ya que se puede trabajar con un código más modular.
+        p.mt-4 Entre sus principales ventajas se puede decir que mejora tanto la organización como la estructura del código, gracias a la herencia, facilita la reutilización de código. Así mismo, brinda facilidad a la hora de hacer mantenimiento, ya que se puede trabajar con un código más modular.
 
       .col-lg-4.d-lg-block.d-none
         figure
@@ -438,13 +438,13 @@
         figure
           img(src='@/assets/curso/tema3/img25.png', alt='', style="width: 400px").m-auto
       .col-lg-8
-        p El desarrollo de #[i software] representa todo un universo, lleno de diversos lenguajes de programación, cuyas características, formas, estilos, paradigmas los hacen tan diferentes pero a la vez tan ricos, para que cualquier programador encuentre una herramienta que se ajuste a su estilo y necesidades. Eso sí, algunos lenguajes son más populares que otros, tal vez por su facilidad, su versatilidad y ante todo por su alta incidencia y adopción en la industria tecnológica.
+        p El desarrollo de #[i software] representa todo un universo, lleno de diversos lenguajes de programación, cuyas características, formas, estilos, paradigmas los hacen tan diferentes pero a la vez tan ricos, para que cualquier programador encuentre una herramienta que se ajuste a su estilo y necesidades. Eso sí, algunos lenguajes son más populares que otros, tal vez por su facilidad, su versatilidad y, ante todo, por su alta incidencia y adopción en la industria tecnológica.
 
-        p.p-5.bg-14.mt-4 La idea de dar a conocer un listado de los lenguajes más utilizados en el mundo, permite a los programadores y a los que están comenzando en este mundo de la programación, orientarse a recursos que ofrezcan mayores oportunidades laborales, facilitándoles el norte a herramientas que aparte de facilitarles la creación de soluciones modernas y eficientes, también volverse competitivos para aprovechar las oportunidades que brinda el mercado. Claro está, también hay que tener en cuenta, que a mayor popularidad del lenguaje, mayor será su competencia, ya que otros irán por esa estatuilla.
+        p.p-5.bg-14.mt-4 La idea de dar a conocer un listado de los lenguajes más utilizados en el mundo, permite a los programadores y a los que están comenzando en este mundo de la programación, orientarse a recursos que ofrezcan mayores oportunidades laborales, orientandoles el norte a herramientas que, aparte de facilitarles la creación de soluciones modernas y eficientes, también permite volverse competitivos para aprovechar las oportunidades que brinda el mercado. Claro está, también hay que tener en cuenta que, a mayor popularidad del lenguaje, mayor será su competencia, ya que otros irán por esa estatuilla.
 
     .row.mt-4.align-items-center
       .col-lg-8 
-        p.p-5.bg-14 El tener identificado cuales son los lenguajes más utilizados, no solo ayuda a enfocarse, sino que también les guía para orientarse en una forma eficiente, teniendo de base las tendencias actuales que estén impulsando a las tecnologías con las que hoy en día se está innovando en las industrias, en donde sobresalen áreas como el desarrollo web, las aplicaciones móviles, sistemas empresariales, computación en la nube, internet de las cosas (IoT), realidad aumentada, blockchain, criptomonedas, biotecnología, robótica, computación cuántica  y la que viene marcando el hito en los últimos años, la inteligencia artificial.
+        p.p-5.bg-14 El tener identificado cuáles son los lenguajes más utilizados, no solo ayuda a enfocarse, sino que también les guía para orientarse en una forma eficiente, teniendo de base las tendencias actuales que estén impulsando a las tecnologías con las que hoy en día se está innovando en las industrias, en donde sobresalen áreas como el desarrollo web, las aplicaciones móviles, sistemas empresariales, computación en la nube, internet de las cosas (IoT), realidad aumentada, blockchain, criptomonedas, biotecnología, robótica, computación cuántica  y la que viene marcando el hito en los últimos años, la inteligencia artificial.
 
         p.mt-4 En esta sección se comparte un listado de los lenguajes de programación más utilizados a nivel mundial, que se han tomado de fuentes actualizadas en los años 2024 y 2025:
 

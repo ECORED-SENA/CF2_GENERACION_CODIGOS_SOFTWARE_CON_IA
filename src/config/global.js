@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos de algoritmos, lógica y lenguajes de programación',
     Description:
-      'Este componente formativo está orientado a fortalecer las bases lógico-computacionales que son necesarias poder comprender y aportar soluciones. Se exploran temas que llevan a entender los fundamentos de algoritmos, estructuras lógicas y paradigmas de programación, con relativo énfasis en la aplicación práctica generada a través de entornos de inteligencia artificial. Su propósito es brindar una comprensión generalizada de los contenidos tratados, con la finalidad de poder entender, analizar, modificar y aplicar los códigos que se puedan ir generando con la inteligencia artificial generativa. ',
+      'Este componente formativo está orientado a fortalecer las bases lógico-computacionales que son necesarias comprender y aportar soluciones. Se exploran temas que llevan a entender los fundamentos de algoritmos, estructuras lógicas y paradigmas de programación, con relativo énfasis en la aplicación práctica generada a través de entornos de inteligencia artificial. Su propósito es brindar una comprensión generalizada de los contenidos tratados, con la finalidad de poder entender, analizar, modificar y aplicar los códigos que se puedan ir generando con la inteligencia artificial generativa. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -173,21 +173,21 @@ export default {
     {
       tema: 'Algoritmos, estructuras y operaciones',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA [@EcosistemaSENAVirtual]. (2023). Algoritmos, estructuras y operaciones. [Archivo de video] Youtube.',
+        'Ecosistema de Recursos Educativos Digitales SENA [@EcosistemaSENAVirtual]. (2023). Algoritmos, estructuras y operaciones. [Archivo de video] YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=aICQGTU4Dm8',
     },
     {
       tema: '¿Qué es un algoritmo?',
       referencia:
-        'Markers, M. [@MagicMarkersPro].(2015). ¿Qué es un algoritmo? [Archivo de video] Youtube.',
+        'Markers, M. [@MagicMarkersPro].(2015). ¿Qué es un algoritmo? [Archivo de video] YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=U3CGMyjzlvM',
     },
     {
       tema: 'Pseudocódigos en PSeInt para principiantes',
       referencia:
-        'Rayito, M. [@MaestraRayito]. (2021). Pseudocódigos en PSeInt para principiantes. [Archivo de video] Youtube.',
+        'Rayito, M. [@MaestraRayito]. (2021). Pseudocódigos en PSeInt para principiantes. [Archivo de video] YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=70eFuMVEuxg',
     },
@@ -195,14 +195,14 @@ export default {
       tema:
         'Como hacer diagramas de flujo con Inteligencia Artificial - ChatGPT',
       referencia:
-        'Lagos, F. [@fredislagos22]. (2024). Como hacer diagramas de flujo con Inteligencia Artificial - ChatGPT | fredislagos. [Archivo de video] Youtube.',
+        'Lagos, F. [@fredislagos22]. (2024). Como hacer diagramas de flujo con Inteligencia Artificial - ChatGPT | fredislagos. [Archivo de video] YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=mWcPAGMx8Ic',
     },
     {
       tema: 'Lenguajes de programación',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA [@EcosistemaSENAVirtual]. (2022). Lenguajes de programación. [Archivo de video] Youtube.',
+        'Ecosistema de Recursos Educativos Digitales SENA [@EcosistemaSENAVirtual]. (2022). Lenguajes de programación. [Archivo de video] YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=QpaLtzMsIFw',
     },
@@ -301,14 +301,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -316,9 +316,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Armando Javier López Sierra',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios – Regional Tolima ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -326,19 +332,28 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yerson Fabian Zárate Saavedra',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y Productor Multimedia	',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -346,14 +361,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

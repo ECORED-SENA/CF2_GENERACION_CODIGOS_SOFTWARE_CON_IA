@@ -14,7 +14,7 @@
             figure
               img(src="@/assets/curso/tema1/img1.svg", alt="", style="width: 90px").m-auto
           .col-lg-10 
-            p.p-1 Es un conjunto finito de pasos o reglas lógicas y precisas que se deben seguir para dar solución a un problema o realizar una tarea determinada. Los algoritmos se componen por reglas de entrada, de proceso y de salida, que se ejecutan en forma ordenada. Su construcción debe ser clara y exacta, sin dejar espacio a las ambigüedades, tampoco puede ser infinita y se desarrolla para dar una solución útil (Mancilla et al., 2016). Las reglas lógicas pueden ir desde describir los pasos para preparar un almuerzo, cruzar por un semáforo, vestirse para ir al colegio, hasta procedimientos más elaborados como aparecer en los primeros lugares en los buscadores en la web, entre otros ejemplos.
+            p.p-1 Es un conjunto finito de pasos o reglas lógicas y precisas que se deben seguir para dar solución a un problema o realizar una tarea determinada. Los algoritmos se componen de reglas de entrada, de proceso y de salida, que se ejecutan en forma ordenada. Su construcción debe ser clara y exacta, sin dejar espacio a las ambigüedades, tampoco puede ser infinita y se desarrolla para dar una solución útil (Mancilla et al., 2016). Las reglas lógicas pueden ir desde describir los pasos para preparar un almuerzo, cruzar por un semáforo, vestirse para ir al colegio, hasta procedimientos más elaborados como aparecer en los primeros lugares en los buscadores en la web, entre otros ejemplos.
       .col-lg-4.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema1/img2.png', alt='', style="width: 400px").m-auto
@@ -144,7 +144,7 @@
       h2 1.2 Tipos de algoritmos
 
 
-    p Según la forma en que se resuelven los problemas, existe una variedad de tipos de algoritmos, los cuales manejan una lógica determinada, que pueden ser utilizados según naturaleza para seguir pasos fijos, tomar decisiones o repetir acciones. Según la necesidad se puede apoyar en uno de esos tipos para construir una solución más eficiente y adaptada a la situación. A continuación se describen los diferentes tipos de algoritmos: 
+    p Según la forma en que se resuelven los problemas, existe una variedad de tipos de algoritmos, los cuales manejan una lógica determinada, que pueden ser utilizados según naturaleza para seguir pasos fijos, tomar decisiones o repetir acciones. Según la necesidad, se puede apoyar en uno de esos tipos para construir una solución más eficiente y adaptada a la situación. A continuación, se describen los diferentes tipos de algoritmos: 
 
     .titulo-sexto.color-acento-contenido.mb-3.mt-4
       h5 Tabla 1.
@@ -201,7 +201,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-8
-        p Es la forma más simple de representar un algoritmo, y su forma consiste en usar frases cortas en un lenguaje cotidiano, con una estructura lógica, que indique en cada línea que es lo que tiene que ir haciendo el algoritmo. Esta representación es fácil de entender y estructurar por personas sin conocimiento, pero también puede ser ambigua, sino se redacta con claridad. Ejemplo: 
+        p Es la forma más simple de representar un algoritmo, y su forma consiste en usar frases cortas en un lenguaje cotidiano, con una estructura lógica, que indique en cada línea qué es lo que tiene que ir haciendo el algoritmo. Esta representación es fácil de entender y estructurar por personas sin conocimiento, pero también puede ser ambigua, si no se redacta con claridad. Ejemplo: 
 
         p #[b Ejemplo 3.] Sumar dos números en lenguaje natural  
 
@@ -218,7 +218,7 @@
         figure
           img(src='@/assets/curso/tema1/img12.png', alt='', style="width: 400px").m-auto
       .col-lg-8
-        p Es un formato más avanzado al lenguaje natural estructurado ya que se utiliza el lenguaje natural, pero en una forma más técnica, llevando la estructura de la codificación de los lenguajes de programación, respetando la lógica computacional. Es de gran ayuda para el análisis de los programadores, sin estresarse o afanarse por la sintaxis de un lenguaje de programación en particular. Se recomienda mucho para el diseño de soluciones antes de programar en un lenguaje; aunque se requiere de entender la lógica de programación para aprovechar sus bondades. Ejemplo:
+        p Es un formato más avanzado que el lenguaje natural estructurado, ya que se utiliza el lenguaje natural, pero en una forma más técnica, llevando la estructura de la codificación de los lenguajes de programación, respetando la lógica computacional. Es de gran ayuda para el análisis de los programadores, sin estresarse o afanarse por la sintaxis de un lenguaje de programación en particular. Se recomienda mucho para el diseño de soluciones antes de programar en un lenguaje; aunque se requiere entender la lógica de programación para aprovechar sus bondades. Ejemplo:
 
         p #[b Ejemplo 4.] Sumar dos números en pseudocódigo
 
@@ -292,7 +292,7 @@
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Estructura básica de un algoritmo
 
-    p Lo invitamos a consultar el siguiente contenido en formado podcast sobre la estructura básica de un algoritmo, detallando sus componentes fundamentales: entrada, proceso y salida, con ejemplos que facilitan su comprensión.
+    p Lo invitamos a consultar el siguiente contenido en formato pódcast sobre la estructura básica de un algoritmo, detallando sus componentes fundamentales: entrada, proceso y salida, con ejemplos que facilitan su comprensión.
 
     .row.mt-4.align-items-center
       .col-lg-7
@@ -342,7 +342,7 @@
             p.px-5.mb-0  Un buen algoritmo mejora el uso del hardware, como el tiempo de ejecución y la memoria, lo que es crucial en contextos de alta demanda, como en la inteligencia artificial o los videojuegos.
 
           div(titulo="Reutilización y modularidad")
-            p.px-5.mb-0  Los algoritmos pueden ser diseñados para ser reutilizados en distintas partes de un programa o en diferentes proyectos, lo que promueve el modularidad, las #[b buenas prácticas] y facilita el mantenimiento del #[i software].
+            p.px-5.mb-0  Los algoritmos pueden ser diseñados para ser reutilizados en distintas partes de un programa o en diferentes proyectos, lo que promueve la modularidad, las #[b buenas prácticas] y facilita el mantenimiento del #[i software].
 
           div(titulo="Prevención de errores y ambigüedades")
             p.px-5.mb-0  Un algoritmo bien estructurado asegura el #[b orden lógico] de las aplicaciones, evitando errores lógicos y ambigüedades que afectan la confiabilidad del #[i software].
@@ -419,7 +419,7 @@
       h5 Tabla 3.
       span Diferencia entre algoritmo y #[i software] 
 
-    .table.responsive
+    .table-responsive
       table
         thead
           tr(style="background-color:#F8E32A")
@@ -486,7 +486,7 @@
           tr
             td Modificación
             td.text-start Puede ser modificada a nivel lógico o a nivel conceptual.
-            td.text-start Puede ser modificada a nivel código, configuración y documentación.
+            td.text-start Puede ser modificada a nivel de código, configuración y documentación.
 
     separador
     #t_1_7.titulo-segundo.color-acento-contenido
@@ -553,7 +553,7 @@
                       img(src='@/assets/curso/tema1/img37.png', alt='')
                   .col-md-7.mb-4.mb-md-0.mt-lg-0.mt-4
                     p
-                      b Análisis de datos y Big Data
+                      b Análisis de datos y #[i Big Data]
 
                     p Posibilitan el procesamiento de grandes volúmenes de datos, facilitando la identificación de tendencias y la toma de decisiones estratégicas en distintas áreas.
                     

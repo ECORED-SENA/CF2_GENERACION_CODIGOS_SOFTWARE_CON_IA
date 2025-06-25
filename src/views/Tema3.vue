@@ -540,7 +540,7 @@
               p.text-small.mb-0 Se comparten unos ejemplos para se pueda conocer la  codificación en algunos lenguajes de programación.  (Anexo 2). 
     
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
+              a.boton.color-acento-botones(href="downloads/anexos/Ejemplos.pdf" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download.text-white
 

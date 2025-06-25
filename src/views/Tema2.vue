@@ -926,7 +926,7 @@
               p.text-small.mb-0 Para una mejor comprensión de los temas vistos hasta el momento, se comparte un listado de algoritmos desarrollados, en donde podrán evidenciar los temas tratados (Anexo 1). 
     
             .col-sm-auto
-              a.boton.color-acento-botones(href="downloads/Anexo_1_Frecuencias_muestreo_aguaconsumo_humano" target="_blank")
+              a.boton.color-acento-botones(href="downloads/anexos/Algoritmos_en_pseudocodigo.pdf" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download.text-white
     

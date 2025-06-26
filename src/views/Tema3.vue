@@ -356,8 +356,9 @@
       h5 Figura 3.
       span Suma de dos números en Python 
 
-    figure.mt-4
-      img(src='@/assets/curso/tema3/img19.svg', alt='', style="width: 1240px").m-auto
+    .row.mt-4.bg-18.justify-content-center.p-4
+      figure.mt-4
+        img(src='@/assets/curso/tema3/img19.svg', alt='Fragmento de código en Python que declara dos variables con valores numéricos, calcula su suma y muestra el resultado en pantalla.', style="width: 610px").m-auto
 
 
     .titulo-tres.mt-5: h3 Paradigma declarativo
@@ -382,8 +383,9 @@
       h5 Figura 4.
       span Consulta de estudiantes mayores de edad en SQL 
 
-    figure.mt-4
-      img(src='@/assets/curso/tema3/img22.svg', alt='', style="width: 1240px").m-auto
+    .row.mt-4.bg-18.justify-content-center.p-4
+      figure.mt-4
+        img(src='@/assets/curso/tema3/img22.svg', alt='Consulta SQL que selecciona el nombre de los estudiantes cuya edad es mayor o igual a 18 años.', style="width: 610px").m-auto
 
     .titulo-tres.mt-5: h3 Paradigma Orientado a Objetos (OOP)
 
@@ -426,8 +428,9 @@
       h5 Figura 5.
       span  Definición y uso de una clase en Java 
 
-    figure.mt-4
-      img(src='@/assets/curso/tema3/img24.svg', alt='', style="width: 1240px").m-auto
+    .row.mt-4.bg-18.justify-content-center.p-4
+      figure.mt-4
+        img(src='@/assets/curso/tema3/img24a.svg', alt='Fragmento de código en Java con una clase llamada Persona que contiene atributos de nombre y edad, un método para saludar, y una clase Main que crea un objeto Persona, asigna valores a sus atributos y ejecuta el método de saludo.', style="width: 820px").m-auto
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido

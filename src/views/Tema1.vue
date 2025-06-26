@@ -52,6 +52,7 @@
 
 
           div(titulo="Ejemplo 2. Algoritmo para asistir al colegio")
+            p.px-4 Inicio
             p.px-5.mb-0  Despertar a las 5:00 A.M. 
             p.px-5.mb-0  Levantarse de la cama
             p.px-5.mb-0  Ir al baño y asearse (lavar cara, cepillar dientes, bañarse)
@@ -61,7 +62,8 @@
             p.px-5.mb-0  Preparar la mochila con los libros y demás útiles escolares
             p.px-5.mb-0  Verificar que todo esté en la mochila (libros, lápices, cuadernos, calculadora)
             p.px-5.mb-0  Despedirse de los padres
-            p.px-5.mb-0  Salir de casa hacia el colegio
+            p.px-5  Salir de casa hacia el colegio
+            p.px-4 Fin
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -201,12 +203,19 @@
 
     .row.justify-content-center.mt-4
       .col-lg-8
-        p Es la forma más simple de representar un algoritmo, y su forma consiste en usar frases cortas en un lenguaje cotidiano, con una estructura lógica, que indique en cada línea qué es lo que tiene que ir haciendo el algoritmo. Esta representación es fácil de entender y estructurar por personas sin conocimiento, pero también puede ser ambigua, si no se redacta con claridad. Ejemplo: 
+        p Es la forma más simple de representar un algoritmo, y su forma consiste en usar frases cortas en un lenguaje cotidiano, con una estructura lógica, que indique en cada línea qué es lo que tiene que ir haciendo el algoritmo. Esta representación es fácil de entender y estructurar por personas sin conocimiento, pero también puede ser ambigua, si no se redacta con claridad.
 
         p #[b Ejemplo 3.] Sumar dos números en lenguaje natural  
 
-        figure
-          img(src='@/assets/curso/tema1/img10.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-5
+          p.mt-5.text-white.text-small Pedir al usuario el valor del primer número
+
+          p.text-white.text-small Pedir al usuario el valor del segundo número
+
+          p.text-white.text-small Sumar los dos números
+
+          p.text-white.text-small Mostrar el resultado de la suma de los dos números
+
       .col-lg-4.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema1/img11.png', alt='', style="width: 400px").m-auto
@@ -218,12 +227,27 @@
         figure
           img(src='@/assets/curso/tema1/img12.png', alt='', style="width: 400px").m-auto
       .col-lg-8
-        p Es un formato más avanzado que el lenguaje natural estructurado, ya que se utiliza el lenguaje natural, pero en una forma más técnica, llevando la estructura de la codificación de los lenguajes de programación, respetando la lógica computacional. Es de gran ayuda para el análisis de los programadores, sin estresarse o afanarse por la sintaxis de un lenguaje de programación en particular. Se recomienda mucho para el diseño de soluciones antes de programar en un lenguaje; aunque se requiere entender la lógica de programación para aprovechar sus bondades. Ejemplo:
+        p Es un formato más avanzado que el lenguaje natural estructurado, ya que se utiliza el lenguaje natural, pero en una forma más técnica, llevando la estructura de la codificación de los lenguajes de programación, respetando la lógica computacional. Es de gran ayuda para el análisis de los programadores, sin estresarse o afanarse por la sintaxis de un lenguaje de programación en particular. Se recomienda mucho para el diseño de soluciones antes de programar en un lenguaje; aunque se requiere entender la lógica de programación para aprovechar sus bondades.
 
         p #[b Ejemplo 4.] Sumar dos números en pseudocódigo
 
-        figure
-          img(src='@/assets/curso/tema1/img13.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-lg-5
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-5 #[b Mostrar mensaje:] "Ingrese el primer número"
+
+          p.text-white.text-small.px-5 Leer número1
+
+          p.text-white.text-small.mb-0.px-5 #[b Mostrar mensaje:]  "Ingrese el segundo número"
+
+          p.text-white.text-small.px-5 Leer número2
+
+          p.text-white.text-small.px-5 Calcular suma como número1 + número2
+
+          p.text-white.text-small.px-5 #[b Mostrar mensaje:] "El resultado de la suma es:" seguido de suma
+
+          p.mt-2.text-white.text-small Fin
+
 
     .titulo-tres.mt-5: h3 Diagrama de flujo
 
@@ -233,8 +257,9 @@
       h5 Figura 1. 
       span Representación gráfica de un diagrama de flujo 
 
-    figure
-      img(src='@/assets/curso/tema1/img14.svg', alt='Diagrama de flujo que representa un algoritmo para sumar dos números. Incluye los pasos: inicio, lectura de valores A y B, cálculo de la suma, muestra del resultado y fin. ', style="width: 1240px").m-auto
+    .row.mt-4.bg-18.justify-content-center.p-4
+      figure
+        img(src='@/assets/curso/tema1/img14.svg', alt='Diagrama de flujo que representa un algoritmo para sumar dos números. Incluye los pasos: inicio, lectura de valores A y B, cálculo de la suma, muestra del resultado y fin. ', style="width: 135px").m-auto
 
     .row.align-items-center.justify-content-center.mt-4.bg-9.p-3
       .col-lg-1.d-lg-block.d-none

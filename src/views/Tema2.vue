@@ -216,8 +216,18 @@
 
         p #[b Ejemplo 5.] Asignación de variables
 
-        figure
-          img(src='@/assets/curso/tema2/img17.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-lg-5
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-5 // Asignar valores directamente
+          p.text-white.text-small.mb-0.px-5 edad = 18
+          p.text-white.text-small.px-5 nombre = "Carlos"
+    
+
+          p.text-white.text-small.mb-0.px-5     // Mostrar los valores
+          p.text-white.text-small.px-5     Mostrar "La edad de", nombre, "es", edad
+
+          p.text-white.text-small Fin
 
     .row.mt-4.align-items-center 
 
@@ -227,8 +237,21 @@
         
         p #[b Ejemplo 6.] Declaración de variables
 
-        figure
-          img(src='@/assets/curso/tema2/img18.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-lg-5
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-5 // Declarar variables
+          p.text-white.text-small.mb-0.px-5     Definir edad como entero
+          p.text-white.text-small.px-5     Definir nombre como texto
+
+          p.text-white.text-small.mb-0.px-5     // Asignar valores
+          p.text-white.text-small.mb-0.px-5         edad = 18
+          p.text-white.text-small.px-5         nombre = "Carlos"
+
+          p.text-white.text-small.mb-0.px-5     // Mostrar los valores
+          p.text-white.text-small.px-5         Mostrar "La edad de", nombre, "es", edad
+
+          p.text-white.text-small Fin
 
       .col-lg-4.d-lg-block.d-none
         figure
@@ -289,8 +312,18 @@
 
         p Este ejemplo muestra cómo se declaran variables especificando el tipo de dato que almacenarán, y luego se les asignan valores correspondientes:
 
-        figure
-          img(src='@/assets/curso/tema2/img21.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-lg-5
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-5 Definir edad como entero
+          p.text-white.text-small.mb-0.px-5     Definir nombre como texto
+          p.text-white.text-small.px-5.mb-0     edad = 16
+
+          p.text-white.text-small.mb-0.px-5     nombre = "Juan"
+          p.text-white.text-small.mb-0.px-5    Mostrar "La edad de", nombre, "es", edad
+
+          p.text-white.text-small Fin
+
 
     .titulo-tres.mt-5: h3 Operadores
 
@@ -368,8 +401,9 @@
       h5 Figura 2. 
       span Vista de una expresión  
 
-    figure
-      img(src='@/assets/curso/tema2/img30.svg', alt='Esquema sobre la estructura de una expresión matemática. Incluye la expresión completa (a + 5) * (b - 2) y señala los componentes: valores, operadores, variables y la expresión en su totalidad.', style="width: 1240px").m-auto
+    .row.mt-4.bg-18.justify-content-center.p-4
+      figure
+        img(src='@/assets/curso/tema2/img30.svg', alt='Esquema sobre la estructura de una expresión matemática. Incluye la expresión completa (a + 5) * (b - 2) y señala los componentes: valores, operadores, variables y la expresión en su totalidad.', style="width: 658px").m-auto
 
     .titulo-tres.mt-5: h3 Operadores aritméticos
 
@@ -645,21 +679,64 @@
 
               p Este ejemplo muestra el uso más básico de los operadores de asignación, donde se asignan valores a variables y se muestra la salida. No se realizan operaciones matemáticas, pero sirve como punto de partida para entender cómo se almacenan y utilizan los datos.
 
-              figure.mt-4
-                img(src='@/assets/curso/tema2/img31.svg', alt='', style="width: 884px").m-auto
+              .row.bg-17.p-lg-5
+                p.mt-5.text-white.text-small Inicio
+
+                p.text-white.text-small.mb-0.px-5     // Asignar valores directamente
+                p.text-white.text-small.mb-0.px-5         edad = 18
+                p.text-white.text-small.px-5         nombre = "Carlos"
+
+                p.text-white.text-small.mb-0.px-5         // Mostrar los valores
+                p.text-white.text-small.mb-0.px-5            Mostrar "La edad de", nombre, "es", edad
+
+                p.text-white.text-small Fin
 
 
           div(titulo="Ejemplo 9. Trabajando expresión por expresión")
             p.px-5.mb-0  Aquí se utiliza una estructura paso a paso, ideal para principiantes, que permite observar con claridad cómo se realizan los cálculos intermedios. Se aplican operadores aritméticos para obtener subtotales, calcular impuestos y descuentos, y finalmente el total a pagar. También se hace uso de operadores de asignación para almacenar resultados intermedios.
 
-            figure.px-5.mt-4
-                img(src='@/assets/curso/tema2/img32.svg', alt='', style="width: 884px").m-auto
+            .row.bg-17.p-lg-5.mt-4
+              p.mt-5.text-white.text-small Inicio
+
+              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de guacharaca:"
+              p.text-white.text-small.mb-0.px-5 Leer cg
+              p.text-white.text-small.px-5.mb-0 Escribir "Precio por guacharaca:"   
+              p.text-white.text-small.mb-0.px-5 Leer pg
+              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de acordeón:"
+              p.text-white.text-small.mb-0.px-5 Leer ca
+              p.text-white.text-small.px-5.mb-0 Escribir "Precio por acordeón:"   
+              p.text-white.text-small.mb-0.px-5 Leer pa
+              p.text-white.text-small.mb-0.px-5 subg = cg * pg
+              p.text-white.text-small.mb-0.px-5 subp = ca * pa
+              p.text-white.text-small.px-5.mb-0 sub = subg + subp   
+              p.text-white.text-small.mb-0.px-5 iva = sub * 0.19
+              p.text-white.text-small.mb-0.px-5 desc = sub * 0.10
+              p.text-white.text-small.mb-0.px-5 total = sub + iva - desc
+              p.text-white.text-small.mb-0.px-5 Escribir "Subtotal:", sub
+              p.text-white.text-small.mb-0.px-5 Escribir "IVA:", iva
+              p.text-white.text-small.mb-0.px-5 Escribir "Descuento:", desc
+              p.text-white.text-small.mb-0.px-5 Escribir "Total a pagar:", total
+
+              p.text-white.text-small Fin
 
           div(titulo="Ejemplo 10. Trabajando todo en una sola expresión")
             p.px-5.mb-0  Este ejemplo muestra una versión más condensada del cálculo, utilizando una única línea para calcular el total a pagar. Es útil para comprender cómo combinar varias operaciones aritméticas dentro de una sola expresión, respetando el orden de operaciones mediante el uso de paréntesis.
 
-            figure.px-5.mt-4
-                img(src='@/assets/curso/tema2/img33.svg', alt='', style="width: 884px").m-auto
+            .row.bg-17.p-lg-5.mt-4
+              p.mt-5.text-white.text-small Inicio
+
+              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de guacharaca:"
+              p.text-white.text-small.mb-0.px-5 Leer cg
+              p.text-white.text-small.px-5.mb-0 Escribir "Precio por guacharaca:"  
+              p.text-white.text-small.mb-0.px-5 Leer pg
+              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de acordeón:"
+              p.text-white.text-small.mb-0.px-5 Leer ca
+              p.text-white.text-small.px-5.mb-0 Escribir "Precio por acordeón:"   
+              p.text-white.text-small.mb-0.px-5 Leer pa
+              p.text-white.text-small.mb-0.px-5 total = (cg*pg+ca*pa) + (cg*pg+ca*pa) * 0.19 - (cg*pg+ca*pa) * 0.10
+              p.text-white.text-small.mb-0.px-5 Escribir "Total a pagar:", total
+
+              p.text-white.text-small Fin
 
 
     separador
@@ -707,8 +784,16 @@
               p 
                 b Ejemplo: 
 
-              figure.mt-4
-                img(src='@/assets/curso/tema2/img37.svg', alt='', style="width: 884px").m-auto
+              .row.bg-17.p-lg-5.mt-4
+                p.mt-5.text-white.text-small Inicio
+
+                p.text-white.text-small.mb-0.px-5 Definir edad como entero
+                p.text-white.text-small.px-5 edad = 20
+                p.text-white.text-small.px-5.mb-0 Si edad >= 18 Entonces
+                p.text-white.text-small.px-5 Mostrar "Eres mayor de edad"
+                p.text-white.text-small.mb-0.px-5 Fin Si
+
+                p.text-white.text-small Fin
 
 
           div(titulo="Condicional alternativo (Si...Sino)")
@@ -717,8 +802,20 @@
             p 
                 b Ejemplo: 
 
-            figure.px-5.mt-4
-                img(src='@/assets/curso/tema2/img38.svg', alt='', style="width: 884px").m-auto
+            .row.bg-17.p-lg-5.mt-4
+              p.mt-5.text-white.text-small Inicio
+
+              p.text-white.text-small.mb-0.px-3  Definir nota como decimal
+              p.text-white.text-small.px-3  nota = 2.8
+
+              p.text-white.text-small.px-3.mb-0 Si nota >= 3.0 Entonces
+              p.text-white.text-small.px-4 Mostrar "Aprobado"
+
+              p.text-white.text-small.mb-0.px-3 Sino
+              p.text-white.text-small.mb-0.px-4 Mostrar "Reprobado"
+              p.text-white.text-small.mb-0.px-2 Fin Si
+
+              p.text-white.text-small Fin
 
           div(titulo="Condicional múltiple (Si...Sino Si...Sino)")
             p.px-5.mb-0  Esta estructura condicional analiza y evalúa varias condiciones secuenciales y ejecuta la línea o el bloque de código que cumple con la primera condición deseada, o sea, la primera que devuelve un valor verdadero.
@@ -726,8 +823,23 @@
             p 
                 b Ejemplo:
 
-            figure.px-5.mt-4
-                img(src='@/assets/curso/tema2/img39.svg', alt='', style="width: 884px").m-auto
+            .row.bg-17.p-lg-5.mt-4
+              p.mt-5.text-white.text-small Inicio
+
+              p.text-white.text-small.mb-0.px-3  Definir nota como decimal
+              p.text-white.text-small.px-3  nota = 3.5
+
+              p.text-white.text-small.px-3.mb-0 Si nota >= 4.5 Entonces
+              p.text-white.text-small.px-4 Mostrar "Excelente"
+
+              p.text-white.text-small.mb-0.px-3    Sino Si nota >= 3.0 Entonces
+              p.text-white.text-small.mb-0.px-4 Mostrar "Aprobado"
+
+              p.text-white.text-small.mb-0.px-3   Sino 
+              p.text-white.text-small.mb-0.px-4 Mostrar "Reprobado"
+              p.text-white.text-small.mb-0.px-2 Fin Si
+
+              p.text-white.text-small Fin
       
 
     .titulo-tres.mt-5: h3 Estructura de control iterativa
@@ -877,12 +989,36 @@
     p #[b Ejemplo 11:] código redundante vs uso de funciones
 
     .row.mt-4.justify-content-center
-      .col-lg-6
-        figure
-          img(src='@/assets/curso/tema2/img56.svg', alt='', style="width: 6100px").m-auto
-      .col-lg-6
-        figure
-          img(src='@/assets/curso/tema2/img57.svg', alt='', style="width: 6100px").m-auto
+      .col-lg-6.p-4
+        .row.bg-17.p-lg-5.mt-4
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-3   a = 5
+          p.text-white.text-small.px-3  b = 3
+          p.text-white.text-small.px-3.mb-0     c = a + b
+          p.text-white.text-small.px-3   Mostrar c
+
+          p.text-white.text-small.mb-0.px-3   a = 7
+          p.text-white.text-small.px-3      b = 2
+          p.text-white.text-small.px-3.mb-0     c = a + b
+          p.text-white.text-small.px-3   Mostrar c
+
+          p.text-white.text-small Fin
+      .col-lg-6.p-4
+        .row.bg-17.p-lg-5.mt-4
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-3   Definir función sumar(a, b)
+          p.text-white.text-small.px-4.mb-0         Devolver a + b
+          p.text-white.text-small.px-3        Fin función
+
+          p.text-white.text-small.mb-0.px-3       c = sumar(5, 3)
+          p.text-white.text-small.px-3          Mostrar c
+
+          p.text-white.text-small.px-3.mb-0         c = sumar(7, 2)
+          p.text-white.text-small.px-3   Mostrar c
+
+          p.text-white.text-small Fin
 
     .row.mt-4.align-items-center
       .col-lg-8
@@ -907,13 +1043,32 @@
       .col-lg-8
         p #[b Ejemplo 12.] Función con retorno
 
-        figure.mt-4
-          img(src='@/assets/curso/tema2/img61.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-lg-5.mt-4
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-3   // Declarar la función con retorno
+          p.text-white.text-small.px-3.mb-0             Definir función calcularAreaCirculo(radio)
+          p.text-white.text-small.px-4                Definir area como decimal
+          p.text-white.text-small.mb-0.px-4               area = 3.14 * radio * radio
+          p.text-white.text-small.px-4                  Devolver area  // Retorna el valor calculado
+          p.text-white.text-small.px-3.mb-0         Fin función
+
+          p.text-white.text-small Fin
 
         p.mt-4 #[b Ejemplo 13.]  Función sin retorno
 
-        figure.mt-4
-          img(src='@/assets/curso/tema2/img62.svg', alt='', style="width: 820px").m-auto
+        .row.bg-17.p-lg-5.mt-3
+          p.mt-5.text-white.text-small Inicio
+
+          p.text-white.text-small.mb-0.px-3       // Declarar una función sin retorno
+          p.text-white.text-small.px-3.mb-0                 Definir función mostrarMensaje(mensaje)
+          p.text-white.text-small.px-4                        Mostrar mensaje  
+          p.text-white.text-small.mb-0.px-3                   // La función muestra el mensaje, pero no devuelve nada
+          p.text-white.text-small.px-3                      Fin función
+          p.text-white.text-small.px-3.mb-0             // Llamada a la función
+          p.text-white.text-small.px-3.mb-0     mostrarMensaje("¡Hola, estudiantes!")
+
+          p.text-white.text-small Fin
 
     .tarjeta.color-primario.p-4.mt-4
       .row.justify-content-around.align-items-center

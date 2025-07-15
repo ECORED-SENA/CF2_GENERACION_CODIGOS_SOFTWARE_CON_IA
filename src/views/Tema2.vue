@@ -19,7 +19,7 @@
             figure
               img(src="@/assets/curso/tema2/img2.svg", alt="", style="width: 90px").m-auto
           .col-lg-10
-            p En el capítulo anterior se abordó el concepto de algoritmo. La lógica de programación se conecta directamente con este tema, ya que representa la técnica que permite diseñar algoritmos, es decir, crear sentencias lógicas compuestas por pasos claros, organizados y ordenados para resolver problemas concretos. Esta técnica combina dos principios esenciales: la computación y la lógica matemática (Arias, 2014).
+            p.mb-0 En el apartado anterior se abordó el concepto de algoritmo. La lógica de programación se conecta directamente con este tema, ya que representa la técnica que permite diseñar algoritmos, es decir, crear sentencias lógicas compuestas por pasos claros, organizados y ordenados para resolver problemas concretos. Esta técnica combina dos principios esenciales: la computación y la lógica matemática (Arias, 2014).
 
     .row.bg-13
       .col-12 
@@ -120,14 +120,18 @@
 
     p Dentro de la lógica de programación, los elementos fundamentales vienen a ser los recursos y las piezas básicas que se necesitan para poder construir cualquier aplicación o sistema. Aquí se habla de los bloques que hacen que el código cobre vida y que permiten que una computadora pueda leerlos, entenderlos y ejecutar las órdenes dadas en las diferentes líneas. Se había hablado de los algoritmos, pero no se habían tratado estos elementos. Ahora, para poder complementar y poder engranar todos los recursos que se necesitan para convertir todas esas ideas en soluciones tecnológicas reales, se van a conocer los principales elementos que intervienen en la programación:
 
-    .row.bg-17
-      .col-12 
-        .p-5 
+    .row
+      .col-12
+        .bg-19.p-3
+          figure
+            img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+      .col-12
+        .bg-20.p-2.p-md-4
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-8
-                SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-6")
-                  .tarjeta.tarjeta--slyder.p-5
+            .row.justify-content-center.align-items-center
+              .col-xl-8
+                SlyderF.custom(columnas="col-lg-6")
+                  .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema2/img10.svg", alt='', style="width: 90px").m-auto
@@ -166,7 +170,7 @@
                     p.text-center
                       b Funciones o procedimientos
                     p.text-center.mb-0 Son bloques de código que se pueden reutilizar para realizar tareas específicas.
-              .col-lg-3.d-none.d-lg-block
+              .col-lg-3.d-none.d-xl-block
                 figure(data-aos="zoom-in")
                   img(src="@/assets/curso/tema2/img9.png", alt="alt", style="width: 305px").m-auto
 
@@ -215,43 +219,56 @@
         p A continuación, se presentan dos ejemplos que presentan cómo utilizar variables en un algoritmo:
 
         p #[b Ejemplo 5.] Asignación de variables
-
-        .row.bg-17.p-lg-5
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-5 // Asignar valores directamente
-          p.text-white.text-small.mb-0.px-5 edad = 18
-          p.text-white.text-small.px-5 nombre = "Carlos"
-    
-
-          p.text-white.text-small.mb-0.px-5     // Mostrar los valores
-          p.text-white.text-small.px-5     Mostrar "La edad de", nombre, "es", edad
-
-          p.text-white.text-small Fin
+        
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   // Asignar valores directamente
+                  |   edad = 18
+                  |   nombre = "Carlos"
+                  |
+                  |   // Mostrar los valores
+                  |   Mostrar "La edad de", nombre, "es", edad
+                  |
+                  | Fin
 
     .row.mt-4.align-items-center 
 
       .col-lg-8
-        p A continuación, se presentan dos ejemplos que presentan cómo utilizar variables en un algoritmo:
-
         
         p #[b Ejemplo 6.] Declaración de variables
 
-        .row.bg-17.p-lg-5
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-5 // Declarar variables
-          p.text-white.text-small.mb-0.px-5     Definir edad como entero
-          p.text-white.text-small.px-5     Definir nombre como texto
-
-          p.text-white.text-small.mb-0.px-5     // Asignar valores
-          p.text-white.text-small.mb-0.px-5         edad = 18
-          p.text-white.text-small.px-5         nombre = "Carlos"
-
-          p.text-white.text-small.mb-0.px-5     // Mostrar los valores
-          p.text-white.text-small.px-5         Mostrar "La edad de", nombre, "es", edad
-
-          p.text-white.text-small Fin
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   // Declarar variables
+                  |   Definir edad como entero
+                  |   Definir nombre como texto
+                  |
+                  |   // Asignar valores
+                  |   edad = 18
+                  |   nombre = "Carlos"
+                  |
+                  |   // Mostrar los valores
+                  |   Mostrar "La edad de", nombre, "es", edad
+                  |
+                  | Fin
 
       .col-lg-4.d-lg-block.d-none
         figure
@@ -312,18 +329,25 @@
 
         p Este ejemplo muestra cómo se declaran variables especificando el tipo de dato que almacenarán, y luego se les asignan valores correspondientes:
 
-        .row.bg-17.p-lg-5
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-5 Definir edad como entero
-          p.text-white.text-small.mb-0.px-5     Definir nombre como texto
-          p.text-white.text-small.px-5.mb-0     edad = 16
-
-          p.text-white.text-small.mb-0.px-5     nombre = "Juan"
-          p.text-white.text-small.mb-0.px-5    Mostrar "La edad de", nombre, "es", edad
-
-          p.text-white.text-small Fin
-
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   Definir edad como entero
+                  |   Definir nombre como texto
+                  |   edad = 16
+                  |
+                  |   nombre = "Juan"
+                  |   Mostrar "La edad de", nombre, "es", edad
+                  |
+                  | Fin
 
     .titulo-tres.mt-5: h3 Operadores
 
@@ -679,64 +703,87 @@
 
               p Este ejemplo muestra el uso más básico de los operadores de asignación, donde se asignan valores a variables y se muestra la salida. No se realizan operaciones matemáticas, pero sirve como punto de partida para entender cómo se almacenan y utilizan los datos.
 
-              .row.bg-17.p-lg-5
-                p.mt-5.text-white.text-small Inicio
-
-                p.text-white.text-small.mb-0.px-5     // Asignar valores directamente
-                p.text-white.text-small.mb-0.px-5         edad = 18
-                p.text-white.text-small.px-5         nombre = "Carlos"
-
-                p.text-white.text-small.mb-0.px-5         // Mostrar los valores
-                p.text-white.text-small.mb-0.px-5            Mostrar "La edad de", nombre, "es", edad
-
-                p.text-white.text-small Fin
-
+              .row
+                .col-12
+                  .bg-19.p-3
+                    figure
+                      img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+                .col-12
+                  .bg-20.px-5.py-4
+                    pre
+                      code.text-white
+                        | Inicio
+                        |
+                        |   // Asignar valores directamente
+                        |   edad = 18
+                        |   nombre = "Carlos"
+                        |
+                        |   // Mostrar los valores
+                        |   Mostrar "La edad de", nombre, "es", edad
+                        |
+                        | Fin
 
           div(titulo="Ejemplo 9. Trabajando expresión por expresión")
-            p.px-5.mb-0  Aquí se utiliza una estructura paso a paso, ideal para principiantes, que permite observar con claridad cómo se realizan los cálculos intermedios. Se aplican operadores aritméticos para obtener subtotales, calcular impuestos y descuentos, y finalmente el total a pagar. También se hace uso de operadores de asignación para almacenar resultados intermedios.
+            p.px-5 Aquí se utiliza una estructura paso a paso, ideal para principiantes, que permite observar con claridad cómo se realizan los cálculos intermedios. Se aplican operadores aritméticos para obtener subtotales, calcular impuestos y descuentos, y finalmente el total a pagar. También se hace uso de operadores de asignación para almacenar resultados intermedios.
 
-            .row.bg-17.p-lg-5.mt-4
-              p.mt-5.text-white.text-small Inicio
-
-              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de guacharaca:"
-              p.text-white.text-small.mb-0.px-5 Leer cg
-              p.text-white.text-small.px-5.mb-0 Escribir "Precio por guacharaca:"   
-              p.text-white.text-small.mb-0.px-5 Leer pg
-              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de acordeón:"
-              p.text-white.text-small.mb-0.px-5 Leer ca
-              p.text-white.text-small.px-5.mb-0 Escribir "Precio por acordeón:"   
-              p.text-white.text-small.mb-0.px-5 Leer pa
-              p.text-white.text-small.mb-0.px-5 subg = cg * pg
-              p.text-white.text-small.mb-0.px-5 subp = ca * pa
-              p.text-white.text-small.px-5.mb-0 sub = subg + subp   
-              p.text-white.text-small.mb-0.px-5 iva = sub * 0.19
-              p.text-white.text-small.mb-0.px-5 desc = sub * 0.10
-              p.text-white.text-small.mb-0.px-5 total = sub + iva - desc
-              p.text-white.text-small.mb-0.px-5 Escribir "Subtotal:", sub
-              p.text-white.text-small.mb-0.px-5 Escribir "IVA:", iva
-              p.text-white.text-small.mb-0.px-5 Escribir "Descuento:", desc
-              p.text-white.text-small.mb-0.px-5 Escribir "Total a pagar:", total
-
-              p.text-white.text-small Fin
+            .row
+              .col-12
+                .bg-19.p-3
+                  figure
+                    img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+              .col-12
+                .bg-20.px-5.py-4
+                  pre
+                    code.text-white
+                      | Inicio
+                      |
+                      |   Escribir "Cantidad de guacharaca:"
+                      |   Leer cg
+                      |   Escribir "Precio por guacharaca:"   
+                      |   Leer pg
+                      |   Escribir "Cantidad de acordeón:"
+                      |   Leer ca
+                      |   Escribir "Precio por acordeón:"   
+                      |   Leer pa
+                      |   subg = cg * pg
+                      |   subp = ca * pa
+                      |   sub = subg + subp   
+                      |   iva = sub * 0.19
+                      |   desc = sub * 0.10
+                      |   total = sub + iva - desc
+                      |   Escribir "Subtotal:", sub
+                      |   Escribir "IVA:", iva
+                      |   Escribir "Descuento:", desc
+                      |   Escribir "Total a pagar:", total
+                      |
+                      | Fin
 
           div(titulo="Ejemplo 10. Trabajando todo en una sola expresión")
-            p.px-5.mb-0  Este ejemplo muestra una versión más condensada del cálculo, utilizando una única línea para calcular el total a pagar. Es útil para comprender cómo combinar varias operaciones aritméticas dentro de una sola expresión, respetando el orden de operaciones mediante el uso de paréntesis.
+            p.px-5  Este ejemplo muestra una versión más condensada del cálculo, utilizando una única línea para calcular el total a pagar. Es útil para comprender cómo combinar varias operaciones aritméticas dentro de una sola expresión, respetando el orden de operaciones mediante el uso de paréntesis.
 
-            .row.bg-17.p-lg-5.mt-4
-              p.mt-5.text-white.text-small Inicio
-
-              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de guacharaca:"
-              p.text-white.text-small.mb-0.px-5 Leer cg
-              p.text-white.text-small.px-5.mb-0 Escribir "Precio por guacharaca:"  
-              p.text-white.text-small.mb-0.px-5 Leer pg
-              p.text-white.text-small.mb-0.px-5 Escribir "Cantidad de acordeón:"
-              p.text-white.text-small.mb-0.px-5 Leer ca
-              p.text-white.text-small.px-5.mb-0 Escribir "Precio por acordeón:"   
-              p.text-white.text-small.mb-0.px-5 Leer pa
-              p.text-white.text-small.mb-0.px-5 total = (cg*pg+ca*pa) + (cg*pg+ca*pa) * 0.19 - (cg*pg+ca*pa) * 0.10
-              p.text-white.text-small.mb-0.px-5 Escribir "Total a pagar:", total
-
-              p.text-white.text-small Fin
+            .row
+              .col-12
+                .bg-19.p-3
+                  figure
+                    img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+              .col-12
+                .bg-20.px-5.py-4
+                  pre
+                    code.text-white
+                      | Inicio
+                      |
+                      |   Escribir "Cantidad de guacharaca:"
+                      |   Leer cg
+                      |   Escribir "Precio por guacharaca:"  
+                      |   Leer pg
+                      |   Escribir "Cantidad de acordeón:"
+                      |   Leer ca
+                      |   Escribir "Precio por acordeón:"   
+                      |   Leer pa
+                      |   total = (cg*pg+ca*pa) + (cg*pg+ca*pa) * 0.19 - (cg*pg+ca*pa) * 0.10
+                      |   Escribir "Total a pagar:", total
+                      |
+                      | Fin
 
 
     separador
@@ -778,69 +825,88 @@
       .col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-6")
           .row(titulo="Condicional simple")
-            .col-12.mb-4.mb-md-0.px-5
+            .col-12.px-5
 
               p Ejecuta una línea de código o un bloque completo, si y solo si se cumple una condición, en otras palabras, si la condición es verdadera.
-              p 
-                b Ejemplo: 
+              p #[b Ejemplo 11.]
 
-              .row.bg-17.p-lg-5.mt-4
-                p.mt-5.text-white.text-small Inicio
+              .row
+                .col-12
+                  .bg-19.p-3
+                    figure
+                      img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+                .col-12
+                  .bg-20.px-5.py-4
+                    pre
+                      code.text-white
+                        | Inicio
+                        |
+                        |   Definir edad como entero
+                        |   edad = 20
+                        |
+                        |   Si edad >= 18 Entonces
+                        |     Mostrar "Eres mayor de edad"
+                        |   Fin Si
+                        |
+                        | Fin
 
-                p.text-white.text-small.mb-0.px-5 Definir edad como entero
-                p.text-white.text-small.px-5 edad = 20
-                p.text-white.text-small.px-5.mb-0 Si edad >= 18 Entonces
-                p.text-white.text-small.px-5 Mostrar "Eres mayor de edad"
-                p.text-white.text-small.mb-0.px-5 Fin Si
+          .row(titulo="Condicional alternativo (Si...Sino)")
+            .col-12.px-5
+              
+              p Ejecuta una línea de código o un bloque de código si la condición es verdadera, y si la condición es falsa, ejecuta una línea o un bloque de código diferente.
+              p #[b Ejemplo 12.]
 
-                p.text-white.text-small Fin
+              .row
+                .col-12
+                  .bg-19.p-3
+                    figure
+                      img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+                .col-12
+                  .bg-20.px-5.py-4
+                    pre
+                      code.text-white
+                        | Inicio
+                        |
+                        |   Definir nota como decimal
+                        |   nota = 2.8
+                        |
+                        |   Si nota >= 3.0 Entonces
+                        |     Mostrar "Aprobado"
+                        |   Sino
+                        |     Mostrar "Reprobado"
+                        |   Fin Si
+                        |
+                        | Fin
 
+          .row(titulo="Condicional múltiple (Si...Sino Si...Sino)")
+            .col-12.px-5
 
-          div(titulo="Condicional alternativo (Si...Sino)")
-            p.px-5.mb-0  Ejecuta una línea de código o un bloque de código si la condición es verdadera, y si la condición es falsa, ejecuta una línea o un bloque de código diferente.
-            
-            p 
-                b Ejemplo: 
+            p Esta estructura condicional analiza y evalúa varias condiciones secuenciales y ejecuta la línea o el bloque de código que cumple con la primera condición deseada, o sea, la primera que devuelve un valor verdadero.
+            p #[b Ejemplo 13.]
 
-            .row.bg-17.p-lg-5.mt-4
-              p.mt-5.text-white.text-small Inicio
-
-              p.text-white.text-small.mb-0.px-3  Definir nota como decimal
-              p.text-white.text-small.px-3  nota = 2.8
-
-              p.text-white.text-small.px-3.mb-0 Si nota >= 3.0 Entonces
-              p.text-white.text-small.px-4 Mostrar "Aprobado"
-
-              p.text-white.text-small.mb-0.px-3 Sino
-              p.text-white.text-small.mb-0.px-4 Mostrar "Reprobado"
-              p.text-white.text-small.mb-0.px-2 Fin Si
-
-              p.text-white.text-small Fin
-
-          div(titulo="Condicional múltiple (Si...Sino Si...Sino)")
-            p.px-5.mb-0  Esta estructura condicional analiza y evalúa varias condiciones secuenciales y ejecuta la línea o el bloque de código que cumple con la primera condición deseada, o sea, la primera que devuelve un valor verdadero.
-
-            p 
-                b Ejemplo:
-
-            .row.bg-17.p-lg-5.mt-4
-              p.mt-5.text-white.text-small Inicio
-
-              p.text-white.text-small.mb-0.px-3  Definir nota como decimal
-              p.text-white.text-small.px-3  nota = 3.5
-
-              p.text-white.text-small.px-3.mb-0 Si nota >= 4.5 Entonces
-              p.text-white.text-small.px-4 Mostrar "Excelente"
-
-              p.text-white.text-small.mb-0.px-3    Sino Si nota >= 3.0 Entonces
-              p.text-white.text-small.mb-0.px-4 Mostrar "Aprobado"
-
-              p.text-white.text-small.mb-0.px-3   Sino 
-              p.text-white.text-small.mb-0.px-4 Mostrar "Reprobado"
-              p.text-white.text-small.mb-0.px-2 Fin Si
-
-              p.text-white.text-small Fin
-      
+            .row
+              .col-12
+                .bg-19.p-3
+                  figure
+                    img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+              .col-12
+                .bg-20.px-5.py-4
+                  pre
+                    code.text-white
+                      | Inicio
+                      |
+                      |   Definir nota como decimal
+                      |   nota = 3.5
+                      |
+                      |   Si nota >= 4.5 Entonces
+                      |     Mostrar "Excelente"
+                      |   Sino Si nota >= 3.0 Entonces
+                      |     Mostrar "Aprobado"
+                      |   Sino 
+                      |     Mostrar "Reprobado"
+                      |   Fin Si
+                      |
+                      | Fin
 
     .titulo-tres.mt-5: h3 Estructura de control iterativa
 
@@ -865,8 +931,22 @@
             h4 Bucle controlado por contador (Para)
             p Se utiliza cuando se necesita que la acción se repita un número determinado de veces.
 
-            figure
-              img(src='@/assets/curso/tema2/img43.svg', style="width:589px").m-auto
+            .row
+              .col-12
+                .bg-19.p-3
+                  figure
+                    img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+              .col-12
+                .bg-20.px-5.py-4
+                  pre
+                    code.text-white
+                      | Inicio
+                      |
+                      |   Para i desde 1 hasta 5 hacer
+                      |   Mostrar "Número:", i
+                      |   Fin Para
+                      |
+                      | Fin
 
           .col-md-5.mb-4.mb-md-0
             figure
@@ -878,8 +958,25 @@
             h4 Bucle controlado por condición (Mientras)
             p Se utiliza cuando se necesita que la acción se repita siempre y cuando la condición se esté cumpliendo, o sea cuando la condición sea verdadera.
 
-            figure
-              img(src='@/assets/curso/tema2/img45.svg', style="width:589px").m-auto
+            .row
+              .col-12
+                .bg-19.p-3
+                  figure
+                    img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+              .col-12
+                .bg-20.px-5.py-4
+                  pre
+                    code.text-white
+                      | Inicio
+                      |
+                      |   Definir contador como entero
+                      |   contador = 1
+                      |   Mientras contador <= 5 Hacer
+                      |   Mostrar "Contador es:", contador
+                      |   contador = contador + 1
+                      |   Fin Mientras
+                      |
+                      | Fin
 
           .col-md-5.mb-4.mb-md-0
             figure
@@ -990,35 +1087,51 @@
 
     .row.mt-4.justify-content-center
       .col-lg-6.p-4
-        .row.bg-17.p-lg-5.mt-4
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-3   a = 5
-          p.text-white.text-small.px-3  b = 3
-          p.text-white.text-small.px-3.mb-0     c = a + b
-          p.text-white.text-small.px-3   Mostrar c
-
-          p.text-white.text-small.mb-0.px-3   a = 7
-          p.text-white.text-small.px-3      b = 2
-          p.text-white.text-small.px-3.mb-0     c = a + b
-          p.text-white.text-small.px-3   Mostrar c
-
-          p.text-white.text-small Fin
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   a = 5
+                  |   b = 3
+                  |   c = a + b
+                  |   Mostrar c
+                  |
+                  |   a = 7
+                  |   b = 2
+                  |   c = a + b
+                  |   Mostrar c
+                  |
+                  | Fin
       .col-lg-6.p-4
-        .row.bg-17.p-lg-5.mt-4
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-3   Definir función sumar(a, b)
-          p.text-white.text-small.px-4.mb-0         Devolver a + b
-          p.text-white.text-small.px-3        Fin función
-
-          p.text-white.text-small.mb-0.px-3       c = sumar(5, 3)
-          p.text-white.text-small.px-3          Mostrar c
-
-          p.text-white.text-small.px-3.mb-0         c = sumar(7, 2)
-          p.text-white.text-small.px-3   Mostrar c
-
-          p.text-white.text-small Fin
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   Definir función sumar(a, b)
+                  |   Devolver a + b
+                  |   Fin función
+                  |
+                  |   c = sumar(5, 3)
+                  |   Mostrar c
+                  |
+                  |   c = sumar(7, 2)
+                  |   Mostrar c
+                  |
+                  | Fin
 
     .row.mt-4.align-items-center
       .col-lg-8
@@ -1043,32 +1156,50 @@
       .col-lg-8
         p #[b Ejemplo 12.] Función con retorno
 
-        .row.bg-17.p-lg-5.mt-4
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-3   // Declarar la función con retorno
-          p.text-white.text-small.px-3.mb-0             Definir función calcularAreaCirculo(radio)
-          p.text-white.text-small.px-4                Definir area como decimal
-          p.text-white.text-small.mb-0.px-4               area = 3.14 * radio * radio
-          p.text-white.text-small.px-4                  Devolver area  // Retorna el valor calculado
-          p.text-white.text-small.px-3.mb-0         Fin función
-
-          p.text-white.text-small Fin
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   // Declarar la función con retorno
+                  |   Definir función calcularAreaCirculo(radio)
+                  |     Definir area como decimal
+                  |     area = 3.14 * radio * radio
+                  |     Devolver area  // Retorna el valor calculado
+                  |   Fin función
+                  |
+                  | Fin
 
         p.mt-4 #[b Ejemplo 13.]  Función sin retorno
 
-        .row.bg-17.p-lg-5.mt-3
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-3       // Declarar una función sin retorno
-          p.text-white.text-small.px-3.mb-0                 Definir función mostrarMensaje(mensaje)
-          p.text-white.text-small.px-4                        Mostrar mensaje  
-          p.text-white.text-small.mb-0.px-3                   // La función muestra el mensaje, pero no devuelve nada
-          p.text-white.text-small.px-3                      Fin función
-          p.text-white.text-small.px-3.mb-0             // Llamada a la función
-          p.text-white.text-small.px-3.mb-0     mostrarMensaje("¡Hola, estudiantes!")
-
-          p.text-white.text-small Fin
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   // Declarar una función sin retorno
+                  |   Definir función mostrarMensaje(mensaje)
+                  |     Mostrar mensaje
+                  |
+                  |   // La función muestra el mensaje, pero no devuelve nada
+                  |   Fin función
+                  |
+                  |   // Llamada a la función
+                  |   mostrarMensaje("¡Hola, estudiantes!")
+                  |
+                  | Fin
 
     .tarjeta.color-primario.p-4.mt-4
       .row.justify-content-around.align-items-center
@@ -1089,6 +1220,8 @@
 </template>
 
 <script>
+import Prism from 'prismjs'
+import 'prismjs/themes/prism.css'
 export default {
   name: 'Tema2',
   data: () => ({
@@ -1098,9 +1231,15 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
   updated() {
     this.$aosRefresh()
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
 }
 </script>

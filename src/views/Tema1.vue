@@ -28,7 +28,7 @@
 
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-6")
-          .row(titulo="Ejemplo 1. Algoritmo para hacer una empanada costeña")
+          .row(titulo="Ejemplo 1. Algoritmo para hacer una empanada")
             .col-12.mb-4.mb-md-0.px-5
 
               p.px-3 Inicio
@@ -195,9 +195,10 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img9.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        p Los algoritmos pueden ser representados de diferentes formas, según la necesidad o el nivel de conocimiento de la persona. Las formas más conocidas para representar un algoritmo son: 
-
+      .bloque-texto-g__texto.p-md-4.p-5
+        .row.d-flex.h-100.align-items-center
+          .col
+            p.mb-0 Los algoritmos pueden ser representados de diferentes formas, según la necesidad o el nivel de conocimiento de la persona. Las formas más conocidas para representar un algoritmo son:
 
     .titulo-tres.mt-5: h3 Lenguaje natural estructurado
 
@@ -205,16 +206,24 @@
       .col-lg-8
         p Es la forma más simple de representar un algoritmo, y su forma consiste en usar frases cortas en un lenguaje cotidiano, con una estructura lógica, que indique en cada línea qué es lo que tiene que ir haciendo el algoritmo. Esta representación es fácil de entender y estructurar por personas sin conocimiento, pero también puede ser ambigua, si no se redacta con claridad.
 
-        p #[b Ejemplo 3.] Sumar dos números en lenguaje natural  
+        p #[b Ejemplo 3.] Sumar dos números en lenguaje natural
 
-        .row.bg-17.p-5
-          p.mt-5.text-white.text-small Pedir al usuario el valor del primer número
-
-          p.text-white.text-small Pedir al usuario el valor del segundo número
-
-          p.text-white.text-small Sumar los dos números
-
-          p.text-white.text-small Mostrar el resultado de la suma de los dos números
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Pedir al usuario el valor del primer número
+                  |
+                  | Pedir al usuario el valor del segundo número
+                  |
+                  | Sumar los dos números
+                  |
+                  | Mostrar el resultado de la suma de los dos números
 
       .col-lg-4.d-lg-block.d-none
         figure
@@ -231,23 +240,27 @@
 
         p #[b Ejemplo 4.] Sumar dos números en pseudocódigo
 
-        .row.bg-17.p-lg-5
-          p.mt-5.text-white.text-small Inicio
-
-          p.text-white.text-small.mb-0.px-5 #[b Mostrar mensaje:] "Ingrese el primer número"
-
-          p.text-white.text-small.px-5 Leer número1
-
-          p.text-white.text-small.mb-0.px-5 #[b Mostrar mensaje:]  "Ingrese el segundo número"
-
-          p.text-white.text-small.px-5 Leer número2
-
-          p.text-white.text-small.px-5 Calcular suma como número1 + número2
-
-          p.text-white.text-small.px-5 #[b Mostrar mensaje:] "El resultado de la suma es:" seguido de suma
-
-          p.mt-2.text-white.text-small Fin
-
+        .row
+          .col-12
+            .bg-19.p-3
+              figure
+                img(src='@/assets/curso/tema1/img41.svg', alt='', style="width: 70px")
+          .col-12
+            .bg-20.px-5.py-4
+              pre
+                code.text-white
+                  | Inicio
+                  |
+                  |   #[b Mostrar mensaje:] "Ingrese el primer número"
+                  |   Leer número1
+                  |
+                  |   #[b Mostrar mensaje:]  "Ingrese el segundo número"
+                  |   Leer número2
+                  |
+                  |   Calcular suma como número1 + número2
+                  |   #[b Mostrar mensaje:] "El resultado de la suma es:" seguido de suma
+                  |
+                  | Fin
 
     .titulo-tres.mt-5: h3 Diagrama de flujo
 
@@ -346,44 +359,41 @@
       h2 1.5 Importancia de los algoritmos
 
     p La importancia de los algoritmos radica en que constituyen uno de los pilares fundamentales de la informática. Son esenciales para la resolución sistemática y eficiente de problemas complejos, y forman la base sobre la cual se construye la lógica de programación y el desarrollo de #[i software]. Su relevancia se manifiesta en múltiples dimensiones, tanto técnicas como prácticas.
-
-    .row.align-items-center
-      .col-lg-4.d-lg-block.d-none
-        figure
-          img(src='@/assets/curso/tema1/img24.png', alt='', style="width: 400px").m-auto
-
-      .col-lg-8
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-6")
-          .row(titulo="Marco lógico para la resolución de problemas")
-            .col-12.mb-4.mb-md-0.px-5
-
-              p Permiten descomponer cualquier problema en pasos organizados, claros y secuenciales, facilitando su análisis, diseño y solución. Esto simplifica problemas complejos mediante procesos más manejables.
-
-
-          div(titulo="Base del desarrollo de <em>software</em>")
-            p.px-5.mb-0  Todo programa o sistema es la implementación práctica de uno o varios algoritmos. Un #[i software] funcional depende de algoritmos bien definidos que aseguren un comportamiento predecible y correcto.
-
-          div(titulo="Optimización de recursos computacionales")
-            p.px-5.mb-0  Un buen algoritmo mejora el uso del hardware, como el tiempo de ejecución y la memoria, lo que es crucial en contextos de alta demanda, como en la inteligencia artificial o los videojuegos.
-
-          div(titulo="Reutilización y modularidad")
-            p.px-5.mb-0  Los algoritmos pueden ser diseñados para ser reutilizados en distintas partes de un programa o en diferentes proyectos, lo que promueve la modularidad, las #[b buenas prácticas] y facilita el mantenimiento del #[i software].
-
-          div(titulo="Prevención de errores y ambigüedades")
-            p.px-5.mb-0  Un algoritmo bien estructurado asegura el #[b orden lógico] de las aplicaciones, evitando errores lógicos y ambigüedades que afectan la confiabilidad del #[i software].
-
-          div(titulo="Mejora de la comunicación técnica")
-            p.px-5.mb-0  Sirven como lenguaje común entre programadores, analistas y diseñadores, favoreciendo la #[b colaboración efectiva] dentro de los equipos de desarrollo.
-
-    p.mt-4 Estas funciones resaltan el valor de los algoritmos como herramientas estructurales clave dentro del desarrollo de #[i software] y la ingeniería informática. Sin embargo, su utilidad trasciende lo técnico, alcanzando un impacto más amplio en la vida cotidiana, los negocios y la innovación tecnológica.
       
     .row.bg-1
       .col-12 
-        .p-5 
+        .px-5
+          .row.align-items-center
+            .col-lg-4.d-lg-block.d-none
+              figure
+                img(src='@/assets/curso/tema1/img24.png', alt='', style="width: 400px").m-auto
+
+            .col-lg-8
+              AcordionA(tipo="a" clase-tarjeta="tarjeta bg-6")
+                .row(titulo="Marco lógico para la resolución de problemas")
+                  .col-12.mb-4.mb-md-0.px-5
+
+                    p Permiten descomponer cualquier problema en pasos organizados, claros y secuenciales, facilitando su análisis, diseño y solución. Esto simplifica problemas complejos mediante procesos más manejables.
+
+                div(titulo="Base del desarrollo de <em>software</em>")
+                  p.px-5.mb-0  Todo programa o sistema es la implementación práctica de uno o varios algoritmos. Un #[i software] funcional depende de algoritmos bien definidos que aseguren un comportamiento predecible y correcto.
+
+                div(titulo="Optimización de recursos computacionales")
+                  p.px-5.mb-0  Un buen algoritmo mejora el uso del hardware, como el tiempo de ejecución y la memoria, lo que es crucial en contextos de alta demanda, como en la inteligencia artificial o los videojuegos.
+
+                div(titulo="Reutilización y modularidad")
+                  p.px-5.mb-0  Los algoritmos pueden ser diseñados para ser reutilizados en distintas partes de un programa o en diferentes proyectos, lo que promueve la modularidad, las #[b buenas prácticas] y facilita el mantenimiento del #[i software].
+
+                div(titulo="Prevención de errores y ambigüedades")
+                  p.px-5.mb-0  Un algoritmo bien estructurado asegura el #[b orden lógico] de las aplicaciones, evitando errores lógicos y ambigüedades que afectan la confiabilidad del #[i software].
+
+                div(titulo="Mejora de la comunicación técnica")
+                  p.px-5.mb-0  Sirven como lenguaje común entre programadores, analistas y diseñadores, favoreciendo la #[b colaboración efectiva] dentro de los equipos de desarrollo.
+          p.mt-4 Estas funciones resaltan el valor de los algoritmos como herramientas estructurales clave dentro del desarrollo de #[i software] y la ingeniería informática. Sin embargo, su utilidad trasciende lo técnico, alcanzando un impacto más amplio en la vida cotidiana, los negocios y la innovación tecnológica.
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
-                SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-6")
+                SlyderF.custom(columnas="col-lg-6 col-md-6 col-xl-6")
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
@@ -581,13 +591,12 @@
                       b Análisis de datos y #[i Big Data]
 
                     p Posibilitan el procesamiento de grandes volúmenes de datos, facilitando la identificación de tendencias y la toma de decisiones estratégicas en distintas áreas.
-                    
-    p.mt-4 Estas aplicaciones evidencian cómo los algoritmos no solo son fundamentales en el desarrollo tecnológico, sino que también se integran en múltiples contextos donde su uso contribuye a optimizar procesos, incrementar la seguridad y personalizar la experiencia del usuario.
 
     .row.bg-12
       .col-12 
         .p-5
-          .row.justify-content-center.mb-5
+          p.mt-4 Estas aplicaciones evidencian cómo los algoritmos no solo son fundamentales en el desarrollo tecnológico, sino que también se integran en múltiples contextos donde su uso contribuye a optimizar procesos, incrementar la seguridad y personalizar la experiencia del usuario.
+          .row.justify-content-center
             .col-lg-4.mb-4.mb-lg-0
               .crd.crd--grayGrad(data-aos="flip-left")
                 .bottomCircle.mb-3
@@ -609,12 +618,12 @@
                     img(src="@/assets/curso/tema1/img40.svg", alt="alt", style="width: 92px").m-auto
                 h4.text-center Educación y entretenimiento
                 p.text-center.mb-0 Son clave en el diseño de juegos, simuladores y plataformas educativas, que se adaptan al estilo de aprendizaje y preferencias del usuario, ofreciendo experiencias personalizadas e interactivas.
-                  
-
  
 </template>
 
 <script>
+import Prism from 'prismjs'
+import 'prismjs/themes/prism.css'
 export default {
   name: 'Tema1',
   data: () => ({
@@ -624,9 +633,15 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
   updated() {
     this.$aosRefresh()
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
 }
 </script>

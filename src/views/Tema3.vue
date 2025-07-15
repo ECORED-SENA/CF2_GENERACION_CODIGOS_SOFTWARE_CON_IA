@@ -221,64 +221,49 @@
                     i.fa-solid.fa-circle(style="font-size: 6px;")
                     span.mb-0.text-small Propósito específico (DSL)
 
-
-              li.d-flex
-                i.fa-solid.fa-circle-check
-                .contenido
-                  p.mb-0 #[b Por el propósito:]
-              li
-                ul
-                  li.d-flex.align-items-center.mb-0
-                    i.fa-solid.fa-circle(style="font-size: 6px;")
-                    span.mb-0.text-small Propósito general
-                  li.d-flex.align-items-center.mb-0
-                    i.fa-solid.fa-circle(style="font-size: 6px;")
-                    span.mb-0.text-small Propósito específico (DSL)
-
           .col-lg-5.d-lg-block.d-none
             figure
               img(src='@/assets/curso/tema3/img9.png', alt='', style="width: 400px").m-auto
 
     p.mt-4 Los lenguajes de programación, para funcionar, se apoyan en diferentes componentes (UNIR, 2024), entre los cuales se pueden citar:
 
-    .row.align-items-center.mt-4
-      .col-lg-4.d-lg-block.d-none
-        figure
-          img(src='@/assets/curso/tema3/img10.png', alt='', style="width: 400px").m-auto
-
-      .col-lg-8
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-6")
-          .row(titulo="Instrucciones")
-            .col-12.mb-4.mb-md-0.px-5
-
-              p Son los comandos, por medio de los cuales, se les dan las indicaciones a los computadores. Dentro de estas instrucciones pueden estar las operaciones lógicas, aritméticas, las condiciones y los ciclos.
-
-
-          div(titulo="Compiladores e intérpretes")
-            ul.lista-ul--color.px-5
-              li.d-flex
-                i.fa-solid.fa-circle-check
-                .contenido
-                  p.mb-0 Lenguajes compilados: son los que se encargan de convertir la totalidad del código fuente que se ha elaborado en un programa a código máquina antes de que este sea ejecutado.
-                  
-              li.d-flex
-                i.fa-solid.fa-circle-check
-                .contenido
-                  p.mb-0 Lenguajes interpretados: se encargan de leer y ejecutar el código línea a línea. Este procedimiento, aunque ventajoso por un lado, afecta la velocidad y el método en que se ejecutan los programas.
-
-
-          div(titulo="Funciones y estructuras")
-            p.px-5.mb-0  Le permite a los programadores o desarrolladores definir funciones en las cuales se pueden encapsular bloques de códigos que se pueden seguir reutilizando a lo largo de la escritura del programa. También permiten la organización del código en estructuras de clases, lo que es aprovechable en los lenguajes orientados a objetos. Estos componentes facilitan la modularidad y el mantenimiento que se hace al #[i software], para mantenerlo activo y optimizado.
-
-    p.mt-4 Los lenguajes de programación también poseen unas características claves que determinan su utilidad y eficacia en el desarrollo del #[i software]. A continuación se exponen algunas de ellas (UNIR, 2024):
-
     .row.bg-1
       .col-12 
-        .p-5 
+        .px-5
+          .row.align-items-center.mt-4
+            .col-lg-4.d-lg-block.d-none
+              figure
+                img(src='@/assets/curso/tema3/img10.png', alt='', style="width: 400px").m-auto
+
+            .col-lg-8
+              AcordionA(tipo="a" clase-tarjeta="tarjeta bg-6")
+                .row(titulo="Instrucciones")
+                  .col-12.mb-4.mb-md-0.px-5
+
+                    p Son los comandos, por medio de los cuales, se les dan las indicaciones a los computadores. Dentro de estas instrucciones pueden estar las operaciones lógicas, aritméticas, las condiciones y los ciclos.
+
+
+                div(titulo="Compiladores e intérpretes")
+                  ul.lista-ul--color.px-5
+                    li.d-flex
+                      i.fa-solid.fa-circle-check
+                      .contenido
+                        p.mb-0 Lenguajes compilados: son los que se encargan de convertir la totalidad del código fuente que se ha elaborado en un programa a código máquina antes de que este sea ejecutado.
+                        
+                    li.d-flex
+                      i.fa-solid.fa-circle-check
+                      .contenido
+                        p.mb-0 Lenguajes interpretados: se encargan de leer y ejecutar el código línea a línea. Este procedimiento, aunque ventajoso por un lado, afecta la velocidad y el método en que se ejecutan los programas.
+
+
+                div(titulo="Funciones y estructuras")
+                  p.px-5.mb-0  Le permite a los programadores o desarrolladores definir funciones en las cuales se pueden encapsular bloques de códigos que se pueden seguir reutilizando a lo largo de la escritura del programa. También permiten la organización del código en estructuras de clases, lo que es aprovechable en los lenguajes orientados a objetos. Estos componentes facilitan la modularidad y el mantenimiento que se hace al #[i software], para mantenerlo activo y optimizado.
+
+          p.mt-4 Los lenguajes de programación también poseen unas características claves que determinan su utilidad y eficacia en el desarrollo del #[i software]. A continuación se exponen algunas de ellas (UNIR, 2024):
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
-                SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-6")
+                SlyderF.custom(columnas="col-lg-6 col-md-6 col-xl-6")
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
@@ -358,7 +343,7 @@
 
     .row.mt-4.bg-18.justify-content-center.p-4
       figure.mt-4
-        img(src='@/assets/curso/tema3/img19.svg', alt='Fragmento de código en Python que declara dos variables con valores numéricos, calcula su suma y muestra el resultado en pantalla.', style="width: 610px").m-auto
+        img(src='@/assets/curso/tema3/img27.png', alt='Fragmento de código en Python que declara dos variables con valores numéricos, calcula su suma y muestra el resultado en pantalla.', style="width: 610px").m-auto
 
 
     .titulo-tres.mt-5: h3 Paradigma declarativo
@@ -385,7 +370,7 @@
 
     .row.mt-4.bg-18.justify-content-center.p-4
       figure.mt-4
-        img(src='@/assets/curso/tema3/img22.svg', alt='Consulta SQL que selecciona el nombre de los estudiantes cuya edad es mayor o igual a 18 años.', style="width: 610px").m-auto
+        img(src='@/assets/curso/tema3/img28.png', alt='Consulta SQL que selecciona el nombre de los estudiantes cuya edad es mayor o igual a 18 años.', style="width: 610px").m-auto
 
     .titulo-tres.mt-5: h3 Paradigma Orientado a Objetos (OOP)
 
@@ -430,7 +415,7 @@
 
     .row.mt-4.bg-18.justify-content-center.p-4
       figure.mt-4
-        img(src='@/assets/curso/tema3/img24a.svg', alt='Fragmento de código en Java con una clase llamada Persona que contiene atributos de nombre y edad, un método para saludar, y una clase Main que crea un objeto Persona, asigna valores a sus atributos y ejecuta el método de saludo.', style="width: 820px").m-auto
+        img(src='@/assets/curso/tema3/img29.png', alt='Fragmento de código en Java con una clase llamada Persona que contiene atributos de nombre y edad, un método para saludar, y una clase Main que crea un objeto Persona, asigna valores a sus atributos y ejecuta el método de saludo.', style="width: 820px").m-auto
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
@@ -443,7 +428,7 @@
       .col-lg-8
         p El desarrollo de #[i software] representa todo un universo, lleno de diversos lenguajes de programación, cuyas características, formas, estilos, paradigmas los hacen tan diferentes pero a la vez tan ricos, para que cualquier programador encuentre una herramienta que se ajuste a su estilo y necesidades. Eso sí, algunos lenguajes son más populares que otros, tal vez por su facilidad, su versatilidad y, ante todo, por su alta incidencia y adopción en la industria tecnológica.
 
-        p.p-5.bg-14.mt-4 La idea de dar a conocer un listado de los lenguajes más utilizados en el mundo, permite a los programadores y a los que están comenzando en este mundo de la programación, orientarse a recursos que ofrezcan mayores oportunidades laborales, orientandoles el norte a herramientas que, aparte de facilitarles la creación de soluciones modernas y eficientes, también permite volverse competitivos para aprovechar las oportunidades que brinda el mercado. Claro está, también hay que tener en cuenta que, a mayor popularidad del lenguaje, mayor será su competencia, ya que otros irán por esa estatuilla.
+        p.p-5.bg-14.mt-4 La idea de dar a conocer un listado de los lenguajes más utilizados en el mundo, permite a los programadores y a los que están comenzando en este mundo de la programación, orientarse a recursos que ofrezcan mayores oportunidades laborales, orientándole el norte a herramientas que, aparte de facilitarles la creación de soluciones modernas y eficientes, también permite volverse competitivos para aprovechar las oportunidades que brinda el mercado. Claro está, también hay que tener en cuenta que, a mayor popularidad del lenguaje, mayor será su competencia, ya que otros irán por esa estatuilla.
 
     .row.mt-4.align-items-center
       .col-lg-8 

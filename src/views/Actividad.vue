@@ -108,12 +108,12 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Declarativo..',
+              texto: 'Declarativo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Orientado a objetos',
+              texto: 'Orientado a objetos.',
               esCorrecta: false,
             },
           ],

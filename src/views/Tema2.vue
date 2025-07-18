@@ -930,6 +930,7 @@
           .col-md-7
             h4 Bucle controlado por contador (Para)
             p Se utiliza cuando se necesita que la acción se repita un número determinado de veces.
+            p #[b Ejemplo 14.]
 
             .row
               .col-12
@@ -957,6 +958,7 @@
           .col-md-7
             h4 Bucle controlado por condición (Mientras)
             p Se utiliza cuando se necesita que la acción se repita siempre y cuando la condición se esté cumpliendo, o sea cuando la condición sea verdadera.
+            p #[b Ejemplo 15.]
 
             .row
               .col-12
@@ -1083,7 +1085,7 @@
 
     p.mt-4 A continuación se presentan  dos ejemplos comparativos, en donde se puede evidenciar  una de las ventajas del uso de funciones:
 
-    p #[b Ejemplo 11:] código redundante vs uso de funciones
+    p #[b Ejemplo 16:] código redundante vs uso de funciones
 
     .row.mt-4.justify-content-center
       .col-lg-6.p-4
@@ -1154,7 +1156,7 @@
         figure
           img(src='@/assets/curso/tema2/img60.png', alt='', style="width: 400px").m-auto
       .col-lg-8
-        p #[b Ejemplo 12.] Función con retorno
+        p #[b Ejemplo 17.] Función con retorno
 
         .row
           .col-12
@@ -1176,7 +1178,7 @@
                   |
                   | Fin
 
-        p.mt-4 #[b Ejemplo 13.]  Función sin retorno
+        p.mt-4 #[b Ejemplo 18.]  Función sin retorno
 
         .row
           .col-12
@@ -1215,7 +1217,6 @@
               a.boton.color-acento-botones(href="downloads/anexos/Algoritmos_en_pseudocodigo.pdf" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download.text-white
-    
 
 </template>
 
